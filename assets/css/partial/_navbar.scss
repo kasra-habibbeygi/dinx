@@ -1,0 +1,204 @@
+.core_navbar {
+    width: 100%;
+    height: 65px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+
+    .left_field {
+
+        button {
+            padding: 4px 13px;
+            color: $main_color;
+            border: 1px solid $main_color;
+            background-color: #fff;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+
+            .fa-user {
+                margin-left: 9px;
+                font-size: 1.1rem;
+            }
+
+        }
+    }
+
+    .right_field {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        direction: rtl;
+        text-align: right;
+        height: inherit;
+
+        img {
+            width: 50px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            margin-right: 10px;
+            height: inherit;
+
+            .special {
+                cursor: pointer;
+            }
+
+            li {
+                padding: 0px 7px;
+                margin: 0px 5px;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:hover {
+                    div {
+                        cursor: pointer;
+                        color: $main_color;
+
+                        .menu_item {
+                            display: block;
+                        }
+                    }
+                }
+
+                .menu {
+                    position: relative;
+
+                    .little_MI {
+                        width: 120px !important;
+                    }
+
+                    .menu_item {
+                        width: 200px;
+                        background-color: #fff;
+                        box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+                        position: absolute;
+                        top: 50px;
+                        right: 0;
+                        border-radius: 3px;
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0;
+                        align-items: flex-start;
+                        direction: rtl;
+                        text-align: right;
+                        display: none;
+
+                        .fa-angle-left {
+                            font-size: 1rem;
+                            position: absolute;
+                            left: 15px;
+                            color: rgb(214, 214, 214);
+                        }
+
+                        li {
+                            margin: 0;
+                            padding: 0;
+                            width: 100%;
+                            justify-content: flex-start;
+
+                            button {
+                                padding: 10px 20px 10px 0px;
+                                width: 100%;
+                                position: relative;
+
+                                &:hover {
+                                    .sub_menu {
+                                        display: block;
+
+                                        li {
+                                            a {
+                                                color: #333;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .sub_menu {
+                                    flex-direction: column;
+                                    position: absolute;
+                                    left: -250px;
+                                    top: 0px;
+                                    width: 250px;
+                                    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0;
+                                    z-index: 2;
+                                    display: none;
+
+                                    li {
+                                        a {
+                                            &:hover {
+                                                color: $main_color;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:hover {
+
+                                a,
+                                button {
+                                    color: $main_color;
+                                }
+                            }
+
+                            a,
+                            button {
+                                font-size: 0.85rem;
+                                color: rgb(46, 46, 46);
+                                border: 0;
+                                background-color: white;
+                                padding-right: 20px;
+                                display: flex;
+                                align-items: center;
+
+                                .fa-circle {
+                                    font-size: 0.4rem;
+                                    color: $main_color;
+                                    margin-left: 7px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                a,
+                .menu {
+                    color: #333333;
+                    text-decoration: none;
+                    padding: 10px 0px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    cursor: pointer;
+                    font-size: 0.9rem;
+                    @include transition(0.1s, linear, 0s);
+
+                    .angle_down {
+                        font-size: 1.2rem;
+                        margin-right: 5px;
+                    }
+
+                    &:hover {
+                        color: $main_color;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,119 @@
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/navbar';
+@import '../partial/footer';
+
+@font-face {
+    font-family: $MF;
+    src: url(../../font/IRANYekanRegular.ttf);
+}
+
+@font-face {
+    font-family: $LF;
+    src: url(../../font/IRANYekanLight.ttf);
+}
+
+@font-face {
+    font-family: $BF;
+    src: url(../../font/IRANYekanExtraBold.ttf);
+}
+
+body {
+    overflow-x: hidden;
+    font-family: $MF;
+    background-color: $body_background !important;
+    padding-top: 65px;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #ebebeb;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(197, 197, 197);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(85, 94, 129);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:focus {
+    outline: none;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    height: 40px;
+    padding: 3px 16px;
+    color: #353535;
+    direction: rtl;
+    text-align: right;
+
+    &::placeholder {
+        color: rgb(187, 187, 187);
+        font-size: 0.9rem;
+    }
+}
+
+p {
+    color: #3b3b3b;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.form_group {
+    margin-bottom: 25px;
+}
+
+.main_sec_header {
+    position: relative;
+    direction: rtl;
+    text-align: right;
+    width: 100%;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+
+    h3 {
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 7px;
+        height: 100%;
+        border-radius: 3px 0px 0px 3px;
+        background-color: $main_color;
+    }
+}
