@@ -1,6 +1,6 @@
 <nav class="core_navbar">
     <div class="left_field">
-        <button type="button">
+        <button type="button" class="LRR_modal">
             ورود | ثبت نام <i class="fal fa-user"></i>
         </button>
     </div>
