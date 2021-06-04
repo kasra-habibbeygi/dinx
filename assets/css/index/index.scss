@@ -64,11 +64,15 @@
 
         h1 {
             font-family: $BF;
+            padding: 0px 30px;
+            line-height: 50px;
         }
 
         h2 {
             font-size: 1.5rem;
             margin-top: 20px;
+            padding: 0px 30px;
+            line-height: 45px;
         }
 
         form {
@@ -103,6 +107,11 @@
 
                 input {
                     height: 60px;
+                    box-shadow: 0px 3px 8px -4px #000000a8;
+
+                    &::placeholder {
+                        font-size: 1rem;
+                    }
                 }
             }
 
@@ -259,6 +268,7 @@
             justify-content: center;
             width: 100%;
             padding: 50px 60px;
+            padding-top: 70px;
 
             .left_field {
                 direction: rtl;
@@ -284,6 +294,7 @@
                     font-size: 1.4rem;
                     display: flex;
                     align-items: center;
+                    line-height: 35px;
 
                     i {
                         font-size: 2rem;
@@ -409,7 +420,7 @@
                 border-radius: 10px;
                 overflow: hidden;
                 box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
-                height: 385px;
+                height: 411px;
                 background-color: #fff;
                 width: 32%;
                 margin-bottom: 2%;
@@ -435,6 +446,10 @@
                 .card_content {
                     padding: 30px;
                     position: relative;
+                    height: 152px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
 
                     .card_bg {
                         position: absolute;
@@ -446,6 +461,7 @@
                         font-size: 1rem;
                         font-weight: bold;
                         margin-bottom: 20px;
+                        line-height: 30px;
                     }
 
                     .card_detail {
@@ -584,7 +600,7 @@
             background-color: white;
             overflow: hidden;
             box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
-            height: 330px;
+            height: 360px;
             cursor: pointer;
             width: 100%;
 
@@ -612,6 +628,7 @@
                     font-size: 1rem;
                     font-weight: bold;
                     margin-bottom: 20px;
+                    line-height: 27px;
                 }
             }
 
@@ -683,4 +700,349 @@
 .next_angle {
     font-size: 2rem;
     color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    nav {
+        display: none !important;
+    }
+
+    .site_service .content_field,
+    .cours_offers .main_field,
+    .course_field .main_field,
+    .Cooperation_field .content,
+    .video_part .main_field {
+        width: $conteiner_M;
+    }
+
+    .cours_offers .main_field .CO_main_field {
+        padding-top: 80px;
+    }
+
+    .course_field .main_field .card_parent .course_card .card_content {
+        padding: 21px 15px;
+    }
+
+    .course_field .main_field .card_parent .course_card .card_content .card_detail {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .course_field .main_field .card_parent .course_card .card_content .card_detail div {
+        margin-left: 0;
+        margin-bottom: 10px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .course_field .main_field .card_parent .course_card .card_footer {
+        padding: 12px 15px;
+    }
+
+
+    .course_field .main_field .card_parent .course_card {
+        width: 48%;
+        margin: 1% !important;
+    }
+
+    .course_field .main_field .card_parent .course_card .card_footer {
+        padding: 20px 15px;
+    }
+
+    .Cooperation_field .content h3 {
+        font-size: 2rem;
+    }
+
+    .Cooperation_field .content p {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .site_service .content_field {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .Cooperation_field .content {
+        width: 90%;
+    }
+
+    .site_service .content_field .SC_field {
+        width: 45%;
+
+        &:nth-child(2) {
+            margin-right: 0;
+        }
+
+        &:nth-child(3) {
+            margin: 0;
+            margin-top: 60px;
+            width: 70%;
+        }
+    }
+
+    .site_service .content_field {
+        padding-bottom: 0;
+    }
+
+    .site_service .content_field,
+    .cours_offers .main_field,
+    .course_field .main_field,
+    .video_part .main_field {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 840px) {
+
+    .index_header .content_field form .form_group {
+        width: 90%;
+    }
+
+    .cours_offers .main_field .CO_main_field .right_field {
+        width: 240px;
+        height: 230px;
+    }
+
+    .video_part .main_field .VS_field .VS_detail div {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .video_part .main_field .VS_field .VS_detail {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .video_part .main_field .VS_field {
+        height: 360px;
+    }
+
+    .video_part .main_field .VS_field {
+        height: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .cours_offers .main_field .CO_main_field {
+        flex-direction: column;
+    }
+
+    .cours_offers .main_field .CO_main_field .left_field {
+        order: 2;
+        margin-top: 50px;
+        padding-right: 0;
+    }
+
+    .cours_offers .main_field .CO_main_field .right_field {
+        width: 100%;
+        height: 230px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .accent_header .content h3 {
+        font-size: 1.2rem;
+    }
+
+    .accent_header .content p {
+        font-size: 0.9rem;
+    }
+
+    .course_field .main_field .card_parent .course_card {
+        width: 100%;
+        margin: 2% 0% !important;
+    }
+
+    .accent_header {
+        margin-bottom: 30px;
+    }
+
+    .Cooperation_field {
+        height: 450px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .index_header .content_field h1 {
+        font-size: 2rem;
+    }
+
+    .index_header {
+        height: 500px;
+    }
+
+    .site_service .content_field .SC_field {
+        width: 80% !important;
+        margin: 0;
+        margin-top: 30px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 580px) {
+
+    .accent_header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .accent_header a {
+        margin-top: 20px;
+    }
+
+    .index_header .content_field h1 {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .index_header .content_field h2 {
+        font-size: 1.3rem;
+    }
+
+    .cours_offers .main_field .CO_title {
+        left: 58px;
+        width: 74%;
+        text-align: center;
+    }
+
+    .cours_offers .main_field .CO_main_field .left_field h3 {
+        font-size: 1.2rem;
+        line-height: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .Cooperation_field .content h3 {
+        font-size: 1.5rem;
+    }
+
+    .Cooperation_field .content p {
+        font-size: 0.9rem;
+        line-height: 30px;
+        margin: 25px 0px;
+    }
+
+    .Cooperation_field {
+        height: 400px;
+    }
+
+    .cours_offers .main_field .CO_main_field .right_field {
+        height: 170px;
+    }
+
+    .cours_offers .main_field .CO_main_field {
+        padding-top: 50px;
+    }
+
+    .cours_offers .main_field .CO_main_field .left_field h3 i {
+        display: none;
+    }
+
+    .cours_offers .main_field .CO_main_field .left_field p {
+        color: #949494;
+        font-size: 0.85rem;
+    }
+
+    .cours_offers .main_field .CO_main_field .left_field .price {
+        flex-direction: column;
+    }
+
+    .cours_offers .main_field .CO_main_field .left_field a {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .Cooperation_field .content div a {
+        width: 140px;
+        padding: 7px 0px;
+        font-size: 0.9rem;
+    }
+
+    .cours_offers .main_field .CO_main_field .left_field h3 {
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    .cours_offers .main_field .CO_title {
+        position: unset;
+        width: 90%;
+        margin: auto;
+    }
+
+    .cours_offers .main_field {
+        padding-top: 20px;
+    }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .course_field .main_field .card_parent .course_card .card_content .card_title {
+        font-size: 0.9rem;
+    }
+
+    .course_field .main_field .card_parent .course_card .card_content .card_detail div {
+        font-size: 0.8rem;
+    }
+
+    .course_field .main_field .card_parent .course_card .card_footer P {
+        font-size: 1.1rem;
+    }
+
+    .course_field .main_field .card_parent .course_card .card_footer {
+        padding: 24px 15px;
+    }
+
+    .accent_header .content h3 {
+        font-size: 1rem;
+    }
+
+    .accent_header .content p {
+        font-size: 0.8rem;
+    }
+
+
+    .accent_header .pill_field span {
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+    }
+
+    .accent_header .pill_field {
+        width: 50px;
+    }
+
+    .video_part .main_field .VS_field .VS_info h3 {
+        font-size: 0.9rem;
+    }
+
+    .video_part .main_field .VS_field .VS_detail div {
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 0.8rem;
+    }
+
 }

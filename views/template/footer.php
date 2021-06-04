@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer_col">
+        <div class="footer_col enamad">
             <header>
                 <div>
                     <span></span>

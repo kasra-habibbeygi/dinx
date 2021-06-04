@@ -7,7 +7,7 @@
 
 .main_footer {
     width: 100%;
-    padding: 40px;
+    padding: 40px 0px;
     padding-bottom: 20px;
     background-color: white;
     box-shadow: 0px -50px 110px -33px #00000025;
@@ -28,7 +28,7 @@
 
         .footer_col {
             width: 70%;
-            margin-left: 40px;
+            margin: 0px 20px;
 
             .enamad_field {
                 display: flex;
@@ -158,6 +158,7 @@
                 font-size: 0.9rem;
                 line-height: 26px;
                 color: #6d6b85;
+                margin-right: 13px;
             }
 
             div {
@@ -248,4 +249,122 @@
             margin: 0;
         }
     }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .main_footer .main_field {
+        width: $conteiner_M;
+    }
+
+    .main_footer .main_field .about_us_field h2 {
+        font-size: 1.1rem;
+    }
+
+    .main_footer .main_field .about_us_field img {
+        width: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main_footer .main_field {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .main_footer .main_field .footer_col ,.main_footer .main_field .fast_access , .main_footer .main_field .enamad{
+        width: 29% !important;
+    }
+
+    .main_footer .main_field .about_us_field {
+        width: 100% !important;
+        margin-bottom: 50px;
+    }
+
+    .main_footer .main_field .about_us_field h2 {
+        font-size: 1.5rem;
+    }
+
+    .main_footer .main_field .about_us_field img {
+        width: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .main_footer .main_field .footer_col, .main_footer .main_field .fast_access, .main_footer .main_field .enamad {
+        width: 100% !important;
+        margin: 0 !important;
+        margin-top: 60px !important;
+    }
+
+    .main_footer .main_field .about_us_field{
+        margin-top: 0 !important;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .main_footer .news_join {
+        width: 90%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .main_footer .news_join h3 {
+        font-size: 1.4rem;
+    }
+
+    .main_footer .news_join p {
+        font-size: 0.9rem;
+        padding: 0px 20px;
+    }
+
+    .main_footer .main_field .about_us_field p {
+        margin-right: 0;
+    }
+
+    .main_footer {
+        box-shadow: 0px -30px 110px -33px #00000025;
+    }
+
+}
+
+@media only screen and (max-width: 450px) { 
+
+    .main_footer .news_join form button {
+        font-size: 1rem;
+    }
+
+    .main_footer .main_field .about_us_field h2 {
+        font-size: 1.1rem;
+    }
+
+    .main_footer .main_field .about_us_field img {
+        width: 80px;
+    }
+
+    
+    .footer_wave {  
+        top: 3px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) { 
+
+    .main_footer .news_join form button {
+        width: 120px;
+    }
+
+    .main_footer .news_join form input {
+        margin-left: 7px;
+    }
+
 }
