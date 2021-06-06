@@ -13,9 +13,8 @@
     .modal_field {
         width: inherit;
         height: inherit;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        overflow: auto;
+        padding: 100px 0px;
 
         .modal_content {
             width: 500px;
@@ -24,6 +23,7 @@
             background-color: white;
             padding: 30px 0px;
             position: relative;
+            margin: auto;
 
             .remove_RLR_modal {
                 position: absolute;
@@ -183,6 +183,27 @@
 
     .login_modal .modal_field .modal_content .input_field .submit_form {
         font-size: 1rem;
+    }
+
+    .login_modal .modal_field .modal_content {
+        width: 95%;
+    }
+
+    .login_modal .modal_field .modal_content .input_field {
+        padding: 0px 20px;
+    }
+
+    .login_modal .modal_field .modal_content .input_field .linear_form_group button {
+        font-size: 1.2rem;
+    }
+
+    .linear_form_group{
+        margin-bottom: 20px;
+        align-items: center !important;
+        
+        .form_group{
+            margin: 0;
+        }
     }
 
 }

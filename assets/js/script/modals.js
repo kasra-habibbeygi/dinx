@@ -61,6 +61,7 @@ $('.GT_login2').click(function () {
 // open modal
 $('.LRR_modal').click(function () {
 
+    $('body').css('overflow' , 'hidden');
     $('.login_modal').fadeIn();
     $('#recovery').hide();
     $('#recovery_header').hide();
@@ -73,6 +74,7 @@ $('.LRR_modal').click(function () {
     $('.remove_RLR_modal').click(function () {
 
         $('.login_modal').fadeOut();
+        $('body').css('overflow' , 'auto');
 
     });
 
