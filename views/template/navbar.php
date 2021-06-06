@@ -6,21 +6,40 @@
     </div>
     <div class="right_field">
         <img src="../../assets/img/logo.svg" alt="لوگوی سایت دینکس" title="لوگوی سایت دینکس">
-        <ul>
+
+        <button class="mobile_SN">
+            <i class="fal fa-bars"></i>
+        </button>
+
+        <div class="MNL"></div>
+
+        <ul id="main_MN_field">
+            <i class="fal fa-times remove_nav"></i>
+
+            <div class="logo_field_mobile">
+                <img class="mobile_logo" src="../../assets/img/logo.svg" alt="لوگوی سایت دینکس"
+                    title="لوگوی سایت دینکس">
+                <p>دینکس</p>
+            </div>
             <li>
                 <a href="">خـــــانه</a>
             </li>
             <li class="special">
                 <div class="menu">
-                    دوره ها
-                    <i class="fal fa-angle-down angle_down"></i>
+                    <span class="OSM">
+                        دوره ها
+                        <i class="fal fa-angle-down angle_down"></i>
+                    </span>
 
                     <ul class="menu_item">
                         <li>
                             <button>
-                                <i class="fas fa-circle"></i>
-                                علوم کامپیوتر
-                                <i class="fal fa-angle-left"></i>
+
+                                <span class="sub_sub_menu">
+                                    <i class="fas fa-circle"></i>
+                                    فناوری اطلاعات
+                                    <i class="fal fa-angle-left"></i>
+                                </span>
 
                                 <ul class="sub_menu">
                                     <li>
@@ -35,9 +54,12 @@
                         </li>
                         <li>
                             <button>
-                                <i class="fas fa-circle"></i>
-                                فنی مهندسی
-                                <i class="fal fa-angle-left"></i>
+
+                                <span class="sub_sub_menu">
+                                    <i class="fas fa-circle"></i>
+                                    علوم کامپیوتر
+                                    <i class="fal fa-angle-left"></i>
+                                </span>
 
                                 <ul class="sub_menu">
                                     <li>
@@ -45,6 +67,24 @@
                                     </li>
                                     <li>
                                         <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-circle"></i>React </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-circle"></i>angular</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-circle"></i>vue</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-circle"></i>electron</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-circle"></i>برنامه نویسی Back-end</a>
+                                    </li>
+                                    <li>
+                                        <a href=""><i class="fas fa-circle"></i>برنامه نویسی front-end</a>
                                     </li>
                                 </ul>
 
@@ -52,86 +92,14 @@
                         </li>
                         <li>
                             <button>
-                                <i class="fas fa-circle"></i>
-                                تجارت و مدیریت
-                                <i class="fal fa-angle-left"></i>
+
+                                <span class="sub_sub_menu">
+                                    <i class="fas fa-circle"></i>
+                                    معماری داخلی
+                                    <i class="fal fa-angle-left"></i>
+                                </span>
 
                                 <ul class="sub_menu">
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
-                                    </li>
-                                </ul>
-
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                <i class="fas fa-circle"></i>
-                                تجارت و مدیریت
-                                <i class="fal fa-angle-left"></i>
-
-                                <ul class="sub_menu">
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
-                                    </li>
-                                </ul>
-
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                <i class="fas fa-circle"></i>
-                                تجارت و مدیریت
-                                <i class="fal fa-angle-left"></i>
-
-                                <ul class="sub_menu">
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
-                                    </li>
-                                </ul>
-
-                            </button>
-                        </li>
-                        <li>
-                            <button>
-                                <i class="fas fa-circle"></i>
-                                تجارت و مدیریت
-                                <i class="fal fa-angle-left"></i>
-
-                                <ul class="sub_menu">
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
-                                    </li>
-                                    <li>
-                                        <a href=""><i class="fas fa-circle"></i>طراحی وب سایت </a>
-                                    </li>
                                     <li>
                                         <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
                                     </li>
@@ -148,8 +116,10 @@
             </li>
             <li class="special">
                 <div class="menu">
-                    تخصص ها
-                    <i class="fal fa-angle-down angle_down"></i>
+                    <span class="OSM">
+                        تخصص ها
+                        <i class="fal fa-angle-down angle_down"></i>
+                    </span>
 
                     <ul class="menu_item little_MI">
                         <li>

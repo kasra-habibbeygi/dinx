@@ -435,6 +435,7 @@
     <script src="../../assets/js/general/jquery.js"></script>
     <script src="../../assets/js/general/bootstrap.js"></script>
     <script src="../../assets/js/general/swiper.js"></script>
+    <script src="../../assets/js/general/navbar.js"></script>
     <script src="../../assets/js/index/index.js"></script>
 
 </body>

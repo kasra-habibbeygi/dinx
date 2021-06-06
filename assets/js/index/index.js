@@ -20,7 +20,7 @@ var swiper = new Swiper(".video_slider", {
 
 // offer slider
 var swiper = new Swiper(".CO_slider", {
-    // autoplay: true,
+    autoplay: true,
     loop: true,
     speed: 1500,
     navigation: {
