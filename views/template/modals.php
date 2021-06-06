@@ -23,8 +23,8 @@
                     </div>
                     <div class="linear_form_group">
                         <div class="form_group">
-                            <input type="text" placeholder="رمز عبور">
-                            <i class="fal fa-lock-alt"></i>
+                            <input type="text" placeholder="کد امنیتی">
+                            <i class="fal fa-shield-check"></i>
                         </div>
                         <button type="button"><i class="fal fa-sync"></i></button>
                         <img src="../../assets/img/CE00.png" alt="captcha" title="captcha">
@@ -58,8 +58,8 @@
                     </div>
                     <div class="linear_form_group">
                         <div class="form_group">
-                            <input type="text" placeholder="رمز عبور">
-                            <i class="fal fa-lock-alt"></i>
+                            <input type="text" placeholder="کد امنیتی">
+                            <i class="fal fa-shield-check"></i>
                         </div>
                         <button type="button"><i class="fal fa-sync"></i></button>
                         <img src="../../assets/img/CE00.png" alt="captcha" title="captcha">
@@ -75,13 +75,13 @@
                     </div>
                     <div class="linear_form_group">
                         <div class="form_group">
-                            <input type="text" placeholder="رمز عبور">
-                            <i class="fal fa-lock-alt"></i>
+                            <input type="text" placeholder="کد امنیتی">
+                            <i class="fal fa-shield-check"></i>
                         </div>
                         <button type="button"><i class="fal fa-sync"></i></button>
                         <img src="../../assets/img/CE00.png" alt="captcha" title="captcha">
                     </div>
-                    <button type="submit" class="submit_form">عضویت</button>
+                    <button type="submit" class="submit_form">بازیابی رمز عبور</button>
                     <p class="register_link">قبلا ثبت نام کرده اید ؟ <button type="button" class="GT_login2">ثبت نام در سایت</button></p>
                 </form>
             </div>

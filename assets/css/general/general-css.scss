@@ -117,3 +117,11 @@ a {
         background-color: $main_color;
     }
 }
+
+@media only screen and (max-width: 500px) {
+
+    .main_sec_header h3 {
+        font-size: 1.2rem;
+    }
+
+}

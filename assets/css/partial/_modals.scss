@@ -95,6 +95,7 @@
 
                     label {
                         direction: rtl;
+                        margin: 0;
                     }
 
                     span {
@@ -145,4 +146,43 @@
 #register_header,
 #recovery_header {
     display: none;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .login_modal .modal_field .modal_content {
+        width: 90%;
+    }
+
+    .login_modal .modal_field .modal_content .input_field .extra_option span {
+        font-size: 0.8rem;
+    }
+
+    .login_modal .modal_field .modal_content .input_field .extra_option button {
+        font-size: .8rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .login_modal .modal_field .modal_content .input_field .extra_option {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+
+    .login_modal .modal_field .modal_content .input_field .extra_option button {
+        margin-bottom: 10px;
+    }
+
+    .login_modal .modal_field .modal_content .input_field .register_link {
+        font-size: 0.8rem;
+    }
+
+    .login_modal .modal_field .modal_content .input_field .submit_form {
+        font-size: 1rem;
+    }
+
 }
