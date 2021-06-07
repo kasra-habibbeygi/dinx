@@ -1,0 +1,196 @@
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/modals';
+
+.course_detail_main_field {
+    width: $conteiner;
+    display: flex;
+    text-align: right;
+    direction: rtl;
+    margin: 50px auto;
+
+    .right_field {
+        border-radius: 10px;
+        width: 100%;
+        padding: 40px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+
+        .h_iframe-aparat_embed_frame {
+            position: relative;
+        }
+
+        .h_iframe-aparat_embed_frame .ratio {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .h_iframe-aparat_embed_frame iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe {
+            border: 0;
+            border-radius: 10px;
+        }
+
+        .about_course {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 50px 0px 30px 0px;
+        }
+
+        .AC_text {
+            width: 100%;
+            color: rgb(77, 77, 77) !important;
+            line-height: 28px !important;
+            text-align: justify;
+        }
+
+        .main_title {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 50px 0px 30px 0px;
+        }
+
+        .course_sessions_field {
+            width: 100%;
+            padding: 0px 20px;
+            background-color: #F7F8FD;
+            border-radius: 10px;
+            margin-top: 15px;
+
+            .CSF_S_field {
+                display: none;
+                padding-bottom: 10px;
+            }
+
+            h3 {
+                font-size: 1.3rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin: 0;
+                padding: 20px 0px;
+                cursor: pointer;
+
+                i {
+                    color: rgb(126, 126, 126);
+                    font-size: 1.2rem;
+                    @include transition(0.2s , linear , 0s);
+                }
+            }
+
+            .sessions_field {
+                margin-bottom: 10px;
+
+                .session_row {
+                    width: 100%;
+                    border: 1px solid #DDE1E3;
+                    border-radius: 5px;
+                    padding: 10px 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: white;
+                    position: relative;
+
+                    .session_info {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        p {
+                            border-left: 1px solid rgb(233, 233, 233);
+                            padding: 5px 20px;
+                            color: rgb(71, 71, 71);
+                            font-size: 0.9rem;
+                            margin-bottom: 0;
+
+                            &:last-child {
+                                color: rgb(76, 201, 76);
+                                border-left: 0;
+                            }
+
+                            &:nth-child(2) {
+                                color: rgb(146, 146, 146);
+                            }
+                        }
+                    }
+
+                    .session_act {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        a {
+                            background-color: white;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                            border-radius: 50px;
+                            width: 40px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 10px;
+                            font-size: 1.1rem;
+
+                            &.play_video {
+                                color: #4DD9C2;
+                            }
+
+                            &.download {
+                                color: #1DCDFE;
+                            }
+                        }
+
+                        button {
+                            background-color: white;
+                            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                            border-radius: 50px;
+                            width: 40px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            margin-right: 10px;
+                            border: 0;
+                            font-size: 1.1rem;
+
+                            &.homework {
+                                color: #CBCBCB;
+                            }
+
+                            &.exam {
+                                color: #ffcf94;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .left_field {
+        width: 300px;
+        margin-right: 20px;
+    }
+}
+
+.active_angle{
+    @include transform(rotate(-90deg));
+}
