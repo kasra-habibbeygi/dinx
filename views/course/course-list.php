@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/general/bootstrap.css">
     <link rel="stylesheet" href="../../assets/css/general/fontAwsome.css">
     <link rel="stylesheet" href="../../assets/css/general/general-css.css">
-    <link rel="stylesheet" href="../../assets/css/course/course.css">
+    <link rel="stylesheet" href="../../assets/css/course/course-list.css">
     <title>دینکس | بترین سایت آموزشی</title>
 </head>
 
@@ -207,7 +207,7 @@
     <script src="../../assets/js/general/bootstrap.js"></script>
     <script src="../../assets/js/script/navbar.js"></script>
     <script src="../../assets/js/script/modals.js"></script>
-    <script src="../../assets/js/course/course.js"></script>
+    <script src="../../assets/js/course/course-list.js"></script>
 
 </body>
 
