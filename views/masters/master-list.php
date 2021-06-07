@@ -21,12 +21,67 @@
             <p class="title_sec">لیست اساتید دینکس</p>
             <div class="masters">
                 <a href="#" class="master_card">
-                    <img src="../../assets/img/VS02.PNG" alt="حمید آذر مکان" title="حمید آذر مکان" class="card_img"> 
-                    <div class="card_content">  
-                    <img src="../../assets/img/CB00.svg" class="card_bg">
-                    <p>حمید آذر مکان</p>
+                    <div class="card_img" style="background-image: url(../../assets/img/MI00.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
                     </div>
-                    
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI01.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI00.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI01.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI00.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI01.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI00.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI01.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
+                </a>
+                <a href="#" class="master_card">
+                    <div class="card_img" style="background-image: url(../../assets/img/MI00.jpg)"></div>
+                    <div class="card_content">
+                        <img src="../../assets/img/CB00.svg" class="card_bg">
+                        <p>حمید آذر مکان</p>
+                    </div>
                 </a>
             </div>
         </section>
