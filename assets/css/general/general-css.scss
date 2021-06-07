@@ -91,6 +91,7 @@ a {
 
 .form_group {
     margin-bottom: 25px;
+    position: relative;
 }
 
 .main_sec_header {
@@ -118,7 +119,17 @@ a {
     }
 }
 
+label{
+    direction: rtl;
+    text-align: right;
+    color: rgb(78, 78, 78);
+}
+
 @media only screen and (max-width: 500px) {
+
+    label{
+        font-size: 0.9rem;
+    }
 
     .main_sec_header h3 {
         font-size: 1.2rem;
@@ -126,6 +137,10 @@ a {
 
     input {
         font-size: 0.9rem;
+
+        &::placeholder{
+            font-size: 0.9rem;
+        }
     }
 
     .login_modal .modal_field .modal_content .input_field .form_group i {
