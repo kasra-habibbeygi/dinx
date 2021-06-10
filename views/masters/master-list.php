@@ -25,6 +25,7 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -32,6 +33,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -39,6 +42,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -46,6 +51,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -53,6 +60,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -60,6 +69,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -67,6 +78,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -74,6 +87,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
                 <a href="#" class="master_card">
@@ -81,6 +96,8 @@
                     <div class="card_content">
                         <img src="../../assets/img/CB00.svg" class="card_bg">
                         <p>حمید آذر مکان</p>
+                        <img src="../../assets/img/CB00.svg" class="card_bg CI_1">
+
                     </div>
                 </a>
             </div>
