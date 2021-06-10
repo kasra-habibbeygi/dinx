@@ -1,0 +1,95 @@
+.profile_temp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+    text-align: right;
+
+    .user_dashboard_field {
+        width: 270px;
+        position: sticky;
+        top: 65px;
+        height: 92vh;
+        background-color: white;
+        box-shadow: 0px -7px 10px -3px rgba(0, 0, 0, 0.164);
+        z-index: 20;
+
+        .user_avatar {
+            margin: 20px auto;
+            width: 125px;
+            height: 125px;
+            border: 3px solid $main_color;
+            border-radius: 200px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        p {
+            color: rgb(51, 51, 51);
+            font-size: 1rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .dashboard_item_field {
+            padding: 0;
+            width: 100%;
+            list-style-type: none;
+
+            li {
+                padding: 0;
+                margin: 0;
+                width: 100%;
+
+                a {
+                    display: flex;
+                    width: 100%;
+                    align-items: center;
+                    justify-content: flex-start;
+                    padding: 10px 15px;
+                    font-size: 0.9rem;
+                    color: rgb(59, 59, 59);
+
+                    &:hover {
+                        i {
+                            top: -5px;
+                        }
+                    }
+
+                    i {
+                        font-size: 0.4rem;
+                        color: $main_color;
+                        margin-left: 10px;
+                        position: relative;
+                        top: 0px;
+                        @include transition(0.1s, linear, 0s);
+                    }
+                }
+            }
+        }
+    }
+
+    .profile_content {
+        width: 100%;
+        padding: 50px;
+
+        .content_field {
+            width: 100%;
+            border-radius: 7px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            background-color: white;
+            padding: 20px 0px;
+            margin-top: 20px;
+
+            .general_content {
+                width: 100%;
+                padding: 0px 40px;
+            }
+        }
+    }
+}
+
+.footer_wave,
+footer {
+    display: none;
+}
