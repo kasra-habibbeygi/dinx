@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/general/bootstrap.css">
+    <link rel="stylesheet" href="../../assets/css/general/fontAwsome.css">
     <link rel="stylesheet" href="../../assets/css/general/general-css.css">
     <link rel="stylesheet" href="../../assets/css/masters/master-list.css">
     <title> دینکس | لیست اساتید</title>
