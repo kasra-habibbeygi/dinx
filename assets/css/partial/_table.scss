@@ -44,6 +44,10 @@
             text-align: center;
             padding: 15px 10px;
 
+            span{
+                display: none;
+            }
+
             &:nth-child(1) {
                 min-width: 50px;
                 width: unset;
@@ -81,4 +85,39 @@
     }
 }
 
-@media only screen and (max-width: 1250px) {}
+@media only screen and (max-width: 780px) {
+
+    .profile_temp .profile_content .content_field .general_content {
+        overflow: hidden;
+    }
+
+    .table_body {
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            height: 5px;
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: #ebebeb;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: rgb(197, 197, 197);
+        }
+        
+        &::-webkit-scrollbar-thumb:hover {
+            background: rgb(85, 94, 129);
+        }
+
+    }
+
+    .table_body .T_header {
+        width: 800px;
+    }
+
+    .table_body .T_body {
+        width: 800px;
+    }
+
+}
