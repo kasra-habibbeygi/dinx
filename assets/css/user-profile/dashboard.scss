@@ -2,6 +2,7 @@
 @import '../partial/mixin';
 @import '../partial/modals';
 @import '../partial/user_dashboard';
+@import '../partial/table';
 
 .dashboard_card {
     width: 100%;
@@ -102,7 +103,92 @@
 
 }
 
-.ticket{
+.ticket {
     width: 100%;
-    
+
+    .T_title {
+        &:nth-child(5) {
+            min-width: 180px;
+            width: 180px;
+        }
+
+        &:nth-child(6) {
+            min-width: 180px;
+            width: 180px;
+        }
+    }
+
+    .T_data {
+        &:nth-child(5) {
+            min-width: 180px;
+            width: 180px;
+        }
+
+        &:nth-child(6) {
+            min-width: 180px;
+            width: 180px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .dashboard_card .C_field div p {
+        font-size: 0.9rem;
+    }
+
+    .dashboard_card .C_field img {
+        width: 50px;
+    }
+
+    .dashboard_card .C_field .SPI {
+        width: 60px;
+    }
+
+    .user_info .MF p {
+        font-size: 0.9rem;
+    }
+
+    .user_info .MF .favorit span {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+
+    .dashboard_card .C_field .SPI {
+        width: 50px;
+    }
+
+    .dashboard_card .C_field img {
+        width: 40px;
+    }
+
+    .profile_temp .profile_content {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .dashboard_card .C_field img {
+        width: 50px;
+    }
+
+    .dashboard_card .C_field .SPI {
+        width: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .dashboard_card .C_field img {
+        width: 40px;
+    }
+
+    .dashboard_card .C_field .SPI {
+        width: 50px;
+    }
+
 }

@@ -90,6 +90,46 @@
 }
 
 .footer_wave,
-footer {
+footer,
+.remove_aside,
+.AML {
     display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .profile_temp .user_dashboard_field {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        z-index: 200;
+        right: -250px;
+        width: 250px;
+        @include transition(0.5s, cubic-bezier(0, 0, 0.2, 1), 0s);
+
+        &.show_aside{
+            right: 0;
+        }
+    }
+
+    .remove_aside {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        font-size: 1.4rem;
+        color: #6b6b6b;
+        cursor: pointer;
+        display: block;
+    }
+
+    .AML {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .466);
+        z-index: 200;
+    }
+
 }

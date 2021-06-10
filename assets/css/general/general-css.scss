@@ -141,6 +141,12 @@ label{
     color: rgb(105, 105, 105);
 }
 
+.text_limited{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
 @media only screen and (max-width: 500px) {
 
     label{

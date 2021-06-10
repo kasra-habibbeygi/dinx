@@ -105,7 +105,7 @@
                                 <div class="T_title">
                                     شماره تیکت
                                 </div>
-                                <div class="T_title">
+                                <div class="T_title text_limited">
                                     عنوان
                                 </div>
                                 <div class="T_title">
@@ -127,19 +127,73 @@
                                 </div>
                                 <div class="T_data">
                                     <div class="text_limited">
-                                        خرید نا موفق
+                                        خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری 
                                     </div>
                                 </div>
                                 <div class="T_data">
                                     ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
-                                    <div class="green_situation">
-                                    
+                                    <div class="green_situation pill">
+                                        پاسخ داده شده
                                     </div>
                                 </div>
                                 <div class="T_data">
+                                    <a href="" class="blue_situation pill">
+                                        مشاهده جزئیات
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="T_body">
+                                <div class="T_data">
                                     ۱
+                                </div>
+                                <div class="T_data">
+                                    ۱۶۵۷۹۰۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="text_limited">
+                                        خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری 
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    ۱۴۰۰.۱۰.۳۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="green_situation pill">
+                                        پاسخ داده شده
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    <a href="" class="blue_situation pill">
+                                        مشاهده جزئیات
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="T_body">
+                                <div class="T_data">
+                                    ۱
+                                </div>
+                                <div class="T_data">
+                                    ۱۶۵۷۹۰۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="text_limited">
+                                        خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری 
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    ۱۴۰۰.۱۰.۳۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="yellow_situation pill">
+                                        در حال بررسی
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    <a href="" class="blue_situation pill">
+                                        مشاهده جزئیات
+                                    </a>
                                 </div>
                             </div>
                         </div>
