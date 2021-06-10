@@ -55,7 +55,7 @@
     width: 100%;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
     .MF {
@@ -181,7 +181,7 @@
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
 
     .dashboard_card .C_field img {
         width: 40px;
@@ -189,6 +189,119 @@
 
     .dashboard_card .C_field .SPI {
         width: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    .table_body .T_body .T_data .pill {
+        font-size: 0.8rem;
+        padding: 5px 4px;
+        width: 99px;
+    }
+
+    .ticket .T_data:nth-child(5) {
+        min-width: 120px;
+        width: 120px;
+    }
+
+    .ticket .T_data:nth-child(6) {
+        min-width: 120px;
+        width: 120px;
+    }
+
+    .ticket .T_title:nth-child(5) {
+        min-width: 120px;
+        width: 120px;
+    }
+
+    .ticket .T_title:nth-child(6) {
+        min-width: 120px;
+        width: 120px;
+    }
+
+    .table_body .text_limited {
+        min-width: 150px;
+        width: 150px !important;
+    }
+
+    .dashboard_card {
+        flex-wrap: wrap;
+    }
+
+    .dashboard_card .C_field {
+        width: 49%;
+        margin: 0;
+        margin-top: 2%;
+
+        &:nth-child(2n) {
+            margin-right: 2%;
+        }
+
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+
+        &:nth-child(2) {
+            margin-top: 0;
+        }
+    }
+
+    .dashboard_card .C_field .SPI {
+        width: 70px;
+    }
+
+    .dashboard_card .C_field img {
+        width: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 780px) {
+
+    .user_info .favorit_field,
+    .user_info .address_field {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .user_info .MF {
+        width: 100%;
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 530px) {
+
+    .dashboard_card .C_field {
+        width: 100%;
+        margin: 0 !important;
+        margin-top: 6% !important;
+
+        &:first-child {
+            margin-top: 0 !important;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .dashboard_card .C_field .SPI {
+        width: 60px;
+    }
+
+    .dashboard_card .C_field img {
+        width: 50px;
+    }
+
+    .profile_temp .profile_content .content_field .general_content {
+        padding: 0px 25px;
     }
 
 }

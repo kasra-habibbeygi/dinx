@@ -79,13 +79,19 @@
                         <div class="MF">
                             <p>تلفن ثابت : <span> ۰۲۱-۴۴۳۰۳۷۸۵</span></p>
                         </div>
-                        <div class="MF">
+                        <div class="MF address_field">
                             <p>آدرس : <span> تهران - شهران -خیابان طوقانی - خیایبان یاس - پلاک 28 </span></p>
                         </div>
-                        <div class="MF">
-                            <div class="favorit"> <span class="title">علاقه مندی ها :</span> <span>بازی های
-                                    کامپیوتری</span><span>برنامه نویسی</span><span>بازی های کامپیوتری</span><span>برنامه
-                                    نویسی</span> <span>طراحی وب سایت</span><span>خواندن کتاب </span></div>
+                        <div class="MF favorit_field">
+                            <div class="favorit">
+                                <span class="title">علاقه مندی ها :</span>
+                                <span>بازی های کامپیوتری</span>
+                                <span>برنامه نویسی</span>
+                                <span>بازی های کامپیوتری</span>
+                                <span>برنامه نویسی</span>
+                                <span>طراحی وب سایت</span>
+                                <span>خواندن کتاب </span>
+                            </div>
                         </div>
                     </div>
 
@@ -120,74 +126,74 @@
                             </div>
                             <div class="T_body">
                                 <div class="T_data">
-                                    ۱
+                                    <span>ردیف : </span> ۱
                                 </div>
                                 <div class="T_data">
-                                    ۱۶۵۷۹۰۰
-                                </div>
-                                <div class="T_data">
-                                    <div class="text_limited">
-                                        خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری 
-                                    </div>
-                                </div>
-                                <div class="T_data">
-                                    ۱۴۰۰.۱۰.۳۰
-                                </div>
-                                <div class="T_data">
-                                    <div class="green_situation pill">
-                                        پاسخ داده شده
-                                    </div>
-                                </div>
-                                <div class="T_data">
-                                    <a href="" class="blue_situation pill">
-                                        مشاهده جزئیات
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="T_body">
-                                <div class="T_data">
-                                    ۱
-                                </div>
-                                <div class="T_data">
-                                    ۱۶۵۷۹۰۰
+                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
                                 </div>
                                 <div class="T_data">
                                     <div class="text_limited">
-                                        خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری 
+                                        <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                     </div>
                                 </div>
                                 <div class="T_data">
-                                    ۱۴۰۰.۱۰.۳۰
-                                </div>
-                                <div class="T_data">
-                                    <div class="green_situation pill">
-                                        پاسخ داده شده
-                                    </div>
-                                </div>
-                                <div class="T_data">
-                                    <a href="" class="blue_situation pill">
-                                        مشاهده جزئیات
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="T_body">
-                                <div class="T_data">
-                                    ۱
-                                </div>
-                                <div class="T_data">
-                                    ۱۶۵۷۹۰۰
-                                </div>
-                                <div class="T_data">
-                                    <div class="text_limited">
-                                        خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری 
-                                    </div>
-                                </div>
-                                <div class="T_data">
-                                    ۱۴۰۰.۱۰.۳۰
+                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
                                     <div class="yellow_situation pill">
-                                        در حال بررسی
+                                        پاسخ داده شده
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    <a href="" class="blue_situation pill">
+                                        مشاهده جزئیات
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="T_body">
+                                <div class="T_data">
+                                    <span>ردیف : </span> ۱
+                                </div>
+                                <div class="T_data">
+                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="text_limited">
+                                        <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="green_situation pill">
+                                        پاسخ داده شده
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    <a href="" class="blue_situation pill">
+                                        مشاهده جزئیات
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="T_body">
+                                <div class="T_data">
+                                    <span>ردیف : </span> ۱
+                                </div>
+                                <div class="T_data">
+                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="text_limited">
+                                        <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    </div>
+                                </div>
+                                <div class="T_data">
+                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                </div>
+                                <div class="T_data">
+                                    <div class="green_situation pill">
+                                        پاسخ داده شده
                                     </div>
                                 </div>
                                 <div class="T_data">
