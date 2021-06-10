@@ -1,80 +1,41 @@
-function menuHover() {
+function mobile_menu() {
 
-    for (let i = 0; i <= $('.special').length; i++) {
-
-        $('.special').eq(i).hover(function () {
-
-            if ($('.menu_item').eq(i).css('display') == 'none') {
-
-                $('.menu_item').hide();
-                $('.menu_item').eq(i).show();
-
-            } else if ($('.menu_item').eq(i).css('display') == 'block') {
-
-                $('.menu_item').eq(i).hide();
-
-            }
-
-        });
-
-    }
-
-}
-
-function subMenuHover() {
-
-    for (let j = 0; j <= $('.sub_sub_menu').length; j++) {
-
-        $('.sub_sub_menu').eq(j).hover(function () {
-
-            $('.sub_menu').hide();
-            $('.sub_menu').eq(j).show();
-
-        });
-
-    }
-
-}
-
-function menuClick() {
-
+    // when user click on the menu item is open
     for (let i = 0; i <= $('.OSM').length; i++) {
+
+        let menu_item = $('.menu .menu_item').eq(i);
 
         $('.OSM').eq(i).click(function () {
 
-            if ($('.menu_item').eq(i).css('display') == 'none') {
+            if (menu_item.hasClass('active_click')) {
 
-                $('.menu_item').slideUp();
-                $('.menu_item').eq(i).slideDown();
+                menu_item.removeClass('active_click');
 
-            } else if ($('.menu_item').eq(i).css('display') == 'block') {
+            } else {
 
-                $('.menu_item').eq(i).slideUp();
+                $('.menu .menu_item').removeClass('active_click');
+                menu_item.addClass('active_click');
 
             }
-
-            $('.sub_menu').slideUp();
 
         });
 
     }
 
-}
-
-function subMenuClick() {
-
+    // when user click on the sub menu , sub menu item is open
     for (let j = 0; j <= $('.sub_sub_menu').length; j++) {
+
+        let sub_menu_item = $('.menu .sub_menu').eq(j);
 
         $('.sub_sub_menu').eq(j).click(function () {
 
-            if ($('.sub_menu').eq(j).css('display') == 'none') {
+            if (sub_menu_item.hasClass('active_click'))
+                sub_menu_item.removeClass('active_click');
 
-                $('.sub_menu').slideUp();
-                $('.sub_menu').eq(j).slideDown();
+            else {
 
-            } else if ($('.sub_menu').eq(j).css('display') == 'block') {
-
-                $('.sub_menu').slideUp();
+                $('.menu .sub_menu').removeClass('active_click');
+                sub_menu_item.addClass('active_click');
 
             }
 
@@ -88,53 +49,63 @@ function close_navbar() {
 
     $('.core_navbar .right_field ul').removeClass('active_nav');
     $('.MNL').fadeOut();
-    $('.sub_menu').slideUp();
-    $('.menu_item').slideUp();
     $('body').css('overflow', 'auto');
+    $('.menu .menu_item').removeClass('active_click');
+    $('.menu .sub_menu').removeClass('active_click');
 
 }
 
+// reponsive nav bar click and hover when user refresh browser
+if ($(window).width() < 1100) {
+
+    $('#main_MN_field').removeClass('hover_mode');
+    mobile_menu();
+
+
+} else if ($(window).width() > 1100) {
+
+    $('#main_MN_field').addClass('hover_mode');
+
+}
+
+// responsive navbar when user resize browser
+$(window).resize(function () {
+
+    if ($(window).width() < 1100) {
+
+        mobile_menu();
+        $('#main_MN_field').addClass('mobile_mode');
+        $('#main_MN_field').removeClass('hover_mode');
+
+    } else if ($(window).width() > 1100) {
+
+        $('#main_MN_field').removeClass('mobile_mode');
+        $('#main_MN_field').addClass('hover_mode');
+        close_navbar();
+
+    }
+
+})
+
+// open navbar
 $('.mobile_SN').click(function () {
 
     $('.core_navbar .right_field ul').addClass('active_nav');
     $('.MNL').fadeIn();
     $('body').css('overflow', 'hidden');
 
+    // close navbar
     $('.MNL').click(function () {
 
-        close_navbar()
+        close_navbar();
 
     })
 
+    // close navbar
     $('.remove_nav').click(function () {
 
-        close_navbar()
+        close_navbar();
 
     });
 
 });
-
-
-if ($(window).width() < 1100) {
-
-    menuClick();
-    subMenuClick();
-
-} else if ($(window).width() > 1100) {
-
-    subMenuHover();
-    menuHover();
-
-}
-
-$(window).resize(function () {
-
-    if ($(window).width() > 1100) {
-
-        $('body').css('overflow', 'auto');
-        $('.MNL').fadeOut();
-        $('.core_navbar .right_field ul').removeClass('active_nav');
-
-    }
-
-})

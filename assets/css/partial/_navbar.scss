@@ -197,7 +197,7 @@
     }
 }
 
-.OSM{
+.OSM {
     display: flex;
     align-items: center;
 }
@@ -207,6 +207,26 @@
 .MNL,
 .remove_nav {
     display: none;
+}
+
+.hover_mode {
+    .special {
+        &:hover {
+            .menu_item {
+                display: block !important;
+
+                li {
+                    button {
+                        &:hover {
+                            .sub_menu {
+                                display: block !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -256,15 +276,17 @@
         align-items: flex-start;
         z-index: 130;
         direction: rtl;
+        overflow-y: auto;
+        overflow-x: hidden;
         @include transition(0.5s, cubic-bezier(0, 0, 0.2, 1), 0s);
     }
 
-    #main_MN_field{
+    #main_MN_field {
         padding-bottom: 50px !important;
     }
 
     .active_nav {
-        right: 0 !important;        
+        right: 0 !important;
         overflow: auto;
     }
 
@@ -305,11 +327,14 @@
         box-shadow: none;
         position: unset;
         flex-direction: column;
-        height: max-content;
+        height: unset;
+        max-height: 0;
         display: block;
         background-color: transparent;
-        display: none;
-        transition: unset;
+
+        &.active_click {
+            max-height: max-content !important;
+        }
 
         button {
             background-color: transparent !important;
@@ -380,6 +405,13 @@
         height: unset;
         box-shadow: none;
         transition: unset;
+        display: block;
+        max-height: 0;
+
+        &.active_click {
+            max-height: max-content !important;
+        }
+
     }
 
     .core_navbar .right_field ul li .menu .menu_item li a .fa-circle,

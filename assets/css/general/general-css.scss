@@ -119,10 +119,24 @@ a {
     }
 }
 
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    height: 150px;
+    padding: 13px 16px;
+    color: #353535;
+    direction: rtl;
+    text-align: right;
+    font-size: 0.9rem;
+    resize: none;
+}
+
 label{
     direction: rtl;
     text-align: right;
-    color: rgb(78, 78, 78);
+    color: rgb(105, 105, 105);
 }
 
 @media only screen and (max-width: 500px) {
