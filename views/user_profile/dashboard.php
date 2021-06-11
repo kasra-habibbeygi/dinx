@@ -217,7 +217,6 @@
     <script src="../../assets/js/general/jquery.js"></script>
     <script src="../../assets/js/general/bootstrap.js"></script>
     <script src="../../assets/js/script/navbar.js"></script>
-    <script src="../../assets/js/script/modals.js"></script>
     <script src="../../assets/js/script/user_dashboard.js"></script>
 
 </body>

@@ -1,38 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="77.322" height="109.339" viewBox="0 0 77.322 109.339">
-  <g id="Group_61" data-name="Group 61" transform="translate(-218 -1740.159)">
-    <g id="Group_372" data-name="Group 372">
-      <g id="Rectangle_24" data-name="Rectangle 24" transform="matrix(0.891, 0.454, -0.454, 0.891, 245.108, 1749.003)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="27.14" height="24.939" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="26.14" height="23.939" rx="4.5" fill="none"/>
-      </g>
-      <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(264.219 1826.907) rotate(159)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="26" height="24" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="25" height="23" rx="4.5" fill="none"/>
-      </g>
-      <g id="Rectangle_26" data-name="Rectangle 26" transform="translate(223.788 1784.975) rotate(-8)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="21.459" height="19.719" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="20.459" height="18.719" rx="4.5" fill="none"/>
-      </g>
-      <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(257.638 1790.156) rotate(-21)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="30" height="27" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="29" height="26" rx="4.5" fill="none"/>
-      </g>
-      <g id="Rectangle_28" data-name="Rectangle 28" transform="translate(272.638 1762.427) rotate(-21)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="15" height="14" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="14" height="13" rx="4.5" fill="none"/>
-      </g>
-      <g id="Rectangle_29" data-name="Rectangle 29" transform="translate(221.788 1741.936) rotate(-6)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="17" height="16" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="16" height="15" rx="4.5" fill="none"/>
-      </g>
-      <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(218 1836.427) rotate(-21)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="15" height="14" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="14" height="13" rx="4.5" fill="none"/>
-      </g>
-      <g id="Rectangle_31" data-name="Rectangle 31" transform="translate(264.483 1827.955) rotate(-8)" fill="rgba(255,255,255,0)" stroke="#eee" stroke-width="1">
-        <rect width="21.459" height="19.719" rx="5" stroke="none"/>
-        <rect x="0.5" y="0.5" width="20.459" height="18.719" rx="4.5" fill="none"/>
-      </g>
+  <g id="Group_61" data-name="Group 61" transform="translate(0)">
+    <g id="Rectangle_24" data-name="Rectangle 24" transform="matrix(0.891, 0.454, -0.454, 0.891, 27.108, 8.845)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="27.14" height="24.939" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="26.14" height="23.939" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(46.219 86.749) rotate(159)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="26" height="24" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="25" height="23" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_26" data-name="Rectangle 26" transform="translate(5.788 44.816) rotate(-8)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="21.459" height="19.719" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="20.459" height="18.719" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_27" data-name="Rectangle 27" transform="translate(39.638 49.998) rotate(-21)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="30" height="27" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="26" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_28" data-name="Rectangle 28" transform="translate(54.638 22.269) rotate(-21)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="15" height="14" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="14" height="13" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_29" data-name="Rectangle 29" transform="translate(3.788 1.777) rotate(-6)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="17" height="16" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="16" height="15" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_30" data-name="Rectangle 30" transform="translate(0 96.269) rotate(-21)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="15" height="14" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="14" height="13" rx="4.5" fill="none"/>
+    </g>
+    <g id="Rectangle_31" data-name="Rectangle 31" transform="translate(46.483 87.796) rotate(-8)" fill="#fff" stroke="#eee" stroke-width="1">
+      <rect width="21.459" height="19.719" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="20.459" height="18.719" rx="4.5" fill="none"/>
     </g>
   </g>
 </svg>
