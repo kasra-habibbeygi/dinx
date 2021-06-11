@@ -37,8 +37,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        مقالات
+                    <a href="../masters/master-list.php">
+                        لیست اساتید
                     </a>
                 </li>
                 <li>
