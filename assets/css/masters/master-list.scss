@@ -25,7 +25,7 @@
         .masters {
             display: flex;
             flex-wrap: wrap;
-
+            direction: rtl;
 
             .master_card {
                 position: relative;
@@ -34,14 +34,14 @@
                 height: 300px;
                 width: 32%;
                 margin-bottom: 2%;
-                margin-right: 2%;
+                margin-left: 2%;
                 text-decoration: none;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
 
                 &:nth-child(3n) {
-                    margin-right: 0;
+                    margin-left: 0;
                 }
 
                 .card_img {
@@ -65,22 +65,24 @@
                     height: 190px;
                     background-color: white;
                     bottom: 0;
-                    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+                    box-shadow: rgb(99 99 99 / 20%) 0px 2px 6px 0px;
 
                     .card_bg {
                         position: absolute;
                         left: 0px;
                         bottom: 0;
+                        width: 90px;
                     }
 
                     .CI_1 {
                         right: 0px;
                         top: 0;
                         left: auto;
+                        @include transform(rotate(-180deg));
                     }
 
                     p {
-                        margin-top: 140px;
+                        margin-top: 132px;
                         font-size: 1.3rem;
                         text-align: center;
                         color: black;
@@ -102,15 +104,15 @@
                 .master_card {
                     height: 250px;
                     width: 46%;
-                    margin-right: 8%;
+                    margin-left: 8%;
                     margin-bottom: 8%;
 
                     &:nth-child(2n) {
-                        margin-right: 0;
+                        margin-left: 0;
                     }
 
                     &:nth-child(3n) {
-                        margin-right: auto;
+                        margin-left: auto;
                     }
 
                     .card_img {
@@ -153,7 +155,7 @@
 
                 .master_card {
                     width: 48%;
-                    margin-right: 4%;
+                    margin-left: 4%;
                     margin-bottom: 4%;
 
                     .card_content {
@@ -191,7 +193,7 @@
                     margin-bottom: 30px;
 
                     &:nth-child(2n) {
-                        margin-right: auto;
+                        margin-left: auto;
                     }
 
                     .card_img {

@@ -7,7 +7,7 @@
 
         <ul class="dashboard_item_field">
             <li>
-                <a href="../user_profile/dashboard.php">
+                <a href="dashboard.php">
                     <i class="fas fa-circle"></i>
                     داشبورد
                 </a>
@@ -37,7 +37,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="ticket-list.php">
                     <i class="fas fa-circle"></i>
                     تیکت ها
                 </a>
@@ -49,13 +49,13 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="profile-edit.php">
                     <i class="fas fa-circle"></i>
                     ویرایش پروفایل
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="change-password.php">
                     <i class="fas fa-circle"></i>
                     تعویض رمز عبور
                 </a>

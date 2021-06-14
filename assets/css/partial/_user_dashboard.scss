@@ -107,7 +107,7 @@ footer,
         width: 250px;
         @include transition(0.5s, cubic-bezier(0, 0, 0.2, 1), 0s);
 
-        &.show_aside{
+        &.show_aside {
             right: 0;
         }
     }
@@ -131,5 +131,40 @@ footer,
         background-color: rgba(0, 0, 0, .466);
         z-index: 200;
     }
+}
 
+.linear_lable_form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .captcha_main_field {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+    }
+
+    img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .form_group{
+        width: 100%;
+        margin: 0;
+    }
 }

@@ -43,6 +43,9 @@
 
                                 <ul class="sub_menu">
                                     <li>
+                                        <a href="../course/course-list.php"><i class="fas fa-circle"></i>تمامی دوره ها</a>
+                                    </li>
+                                    <li>
                                         <a href=""><i class="fas fa-circle"></i> توسعه وب اپلیکشین های موبایل</a>
                                     </li>
                                     <li>

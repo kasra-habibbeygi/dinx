@@ -1,8 +1,19 @@
 @import '../partial/variable';
 @import '../partial/mixin';
-@import '../partial/modals';
 @import '../partial/user_dashboard';
 @import '../partial/table';
+
+.table_body .T_header .T_title{
+
+    &:nth-child(5){
+        min-width: 150px;
+    }
+
+    &:nth-child(6){
+        min-width: 150px;
+    }
+
+}
 
 .dashboard_card {
     width: 100%;
@@ -163,10 +174,6 @@
     .dashboard_card .C_field img {
         width: 40px;
     }
-
-    .profile_temp .profile_content {
-        padding: 30px;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -298,10 +305,6 @@
 
     .dashboard_card .C_field img {
         width: 50px;
-    }
-
-    .profile_temp .profile_content .content_field .general_content {
-        padding: 0px 25px;
     }
 
 }
