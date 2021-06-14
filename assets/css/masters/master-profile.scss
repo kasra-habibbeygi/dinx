@@ -13,14 +13,17 @@
     padding: 40px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-radius: 10px;
+    margin-bottom: 50px;
 
-    .pr_h{
+
+    .pr_h {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
         height: max-content;
         align-items: center;
-        .pr_img{
+
+        .pr_img {
             background-image: url("../../img/MI01.jpg");
             width: 150px;
             height: 150px;
@@ -30,63 +33,65 @@
             border: 3px solid $pill_blue_bold;
         }
 
-        .content_pr{
+        .content_pr {
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-right: 50px;
 
-            p{
+            p {
                 font-size: 1.3rem;
                 font-weight: bold;
             }
 
-            .socail{
+            .socail {
                 font-size: 1.5rem;
-               
-                a{
+
+                a {
                     color: gray;
-                    .icon{
-                        margin-right:10px ;
+
+                    .icon {
+                        margin-right: 10px;
                     }
-    
-                    .fa-phone-alt{
+
+                    .fa-phone-alt {
                         font-size: 1.2rem;
                     }
-    
-                    .fa-at{
-                        font-size: 1.4rem; 
+
+                    .fa-at {
+                        font-size: 1.4rem;
                     }
                 }
-        
+
             }
         }
     }
 
-    .hr{
+    .hr {
         border-bottom: 1px solid #cccccc;
         width: 100%;
         margin: 40px 0;
     }
 
-    .pr_ab{
+    .pr_ab {
         text-align: justify;
 
-        h2{
+        h2 {
             font-size: 1.3rem;
             margin-bottom: 30px;
         }
 
-        .content_specialty{
+        .content_specialty {
             margin-top: 50px;
-            .sp_b{
+
+            .sp_b {
                 display: flex;
                 flex-wrap: wrap;
 
-                .specialty{
+                .specialty {
                     padding: 8px 30px;
-                    background-color: #dee0e7;
-                    border-radius:5px;
+                    background-color: #f2f6f8;
+                    border-radius: 5px;
                     margin-left: 20px;
 
                 }
@@ -94,10 +99,10 @@
         }
     }
 
-    .pr_tc{
+    .pr_tc {
         margin-top: 40px;
 
-        h3{
+        h3 {
             font-size: 1.3rem;
             margin-bottom: 30px;
         }
@@ -213,6 +218,156 @@
 
                         &:last-child {
                             color: $green_price;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .main_mp {
+        width: $conteiner_M;
+
+        .pr_tc {
+            .card_parent {
+                .course_card {
+                    width: 48%;
+                    margin: 1% !important;
+
+                    .card_content {
+                        padding: 21px 15px;
+
+                        .card_detail {
+                            align-items: flex-start;
+                            flex-direction: column;
+                            justify-content: flex-start;
+
+                            div {
+                                margin-left: 0;
+                                margin-bottom: 10px;
+
+                                &:last-child {
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .card_footer {
+                        padding: 20px 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main_mp {
+        width: 90%;
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .main_mp {
+
+        .pr_tc {
+            .card_parent {
+                .course_card {
+                    width: 100%;
+                    margin: 2% 0% !important;
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .main_mp {
+        .pr_h {
+            flex-direction: column;
+
+            .content_pr {
+                margin-right: 0;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .main_mp {
+        margin-bottom: 30px;
+        .hr{
+            margin: 20px 0;
+        }
+        .pr_h {
+
+            .content_pr {
+                p {
+                    font-size: 1.1rem;
+                }
+
+                .socail {
+                    font-size: 1.2rem;
+
+                    a {
+                        .fa-at {
+                            font-size: 1.1rem;
+                        }
+
+                        .fa-phone-alt {
+                            font-size: 1rem;
+                        }
+
+                    }
+                }
+
+
+            }
+        }
+
+        .pr_ab {
+            h2 {
+                font-size: 1.1rem;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: .9rem;
+            }
+        }
+
+        .pr_tc {
+            h3{
+                font-size: 1.1rem; 
+                margin-bottom: 20px;
+            }
+            .card_parent {
+                .course_card {
+                    .card_content {
+                        .card_detail {
+                            font-size: 0.9rem;
+
+                            div {
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+
+                    .card_footer {
+                        padding: 24px 15px;
+
+                        p {
+                            font-size: 1.1rem;
                         }
                     }
                 }
