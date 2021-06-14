@@ -17,8 +17,6 @@
     <?php require_once '../template/navbar.php'?>
 
     <main class="user_dashboard">
-        <?php require_once '../template/modals.php'?>
-
         <section class="profile_temp">
             <?php require_once '../template/user_dashboard.php'?>
 

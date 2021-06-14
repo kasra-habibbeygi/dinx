@@ -49,7 +49,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="profile-edit.php">
                     <i class="fas fa-circle"></i>
                     ویرایش پروفایل
                 </a>
