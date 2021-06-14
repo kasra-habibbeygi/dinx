@@ -121,7 +121,7 @@ a {
     }
 }
 
-textarea{
+textarea {
     width: 100%;
     border-radius: 5px;
     border: 1px solid #e6e6e6;
@@ -135,21 +135,31 @@ textarea{
     resize: none;
 }
 
-label{
+label {
     direction: rtl;
     text-align: right;
     color: rgb(105, 105, 105);
 }
 
-.text_limited{
+.text_limited {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap
 }
 
+@media only screen and (max-width: 1200px) {
+    .profile_temp .profile_content {
+        padding: 30px !important;
+    }
+}
+
 @media only screen and (max-width: 500px) {
 
-    label{
+    .profile_temp .profile_content {
+        padding: 20px !important;
+    }
+
+    label {
         font-size: 0.9rem;
     }
 
@@ -160,13 +170,21 @@ label{
     input {
         font-size: 0.9rem;
 
-        &::placeholder{
+        &::placeholder {
             font-size: 0.9rem;
         }
     }
 
     .login_modal .modal_field .modal_content .input_field .form_group i {
         font-size: 1.2rem;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .profile_temp .profile_content .content_field .general_content {
+        padding: 0px 25px;
     }
 
 }
