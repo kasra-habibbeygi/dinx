@@ -19,7 +19,7 @@
             padding-right: 20px;
             margin-bottom: 50px;
             background-color: white;
-            border-radius: 10px;
+            border-radius: 7px;
         }
 
         .masters {
@@ -29,7 +29,7 @@
 
             .master_card {
                 position: relative;
-                border-radius: 10px;
+                border-radius: 7px;
                 overflow: hidden;
                 height: 300px;
                 width: 32%;
@@ -59,7 +59,7 @@
                 }
 
                 .card_content {
-                    border-radius: 10px;
+                    border-radius: 7px;
                     position: absolute;
                     width: 100%;
                     height: 190px;
@@ -94,48 +94,9 @@
 
 @media only screen and (max-width: 1200px) {
     .main_ms {
-        padding: 30px 50px 0;
         width: $conteiner_M;
 
-        section{
-            .masters{
-                .master_card{
-                    height: 200px;
-                    .card_img{
-                        width: 140px;
-                        height: 140px;
-                    }
-
-                    .card_content{
-                        height: 120px;
-                        p{
-                            margin-top: 70px;
-                            font-size: 1.2rem;
-                        }
-                        .card_bg{
-                            width: 50px;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .main_ms {
-        padding: 30px 0px 0px;
-        width: 90%;
-
-
         section {
-            .title_sec {
-                font-size: 1rem;
-                height: 50px;
-                line-height: 50px;
-                margin-bottom: 30px;
-            }
-
             .masters {
 
                 .master_card {
@@ -167,14 +128,19 @@
                         }
 
                         .card_bg {
-                            width: 50px;
+                            width: 80px;
                         }
                     }
                 }
 
             }
         }
+    }
+}
 
+@media only screen and (max-width: 992px) {
+    .main_ms {
+        width: 90%;
     }
 }
 
@@ -189,6 +155,12 @@
                     width: 48%;
                     margin-right: 4%;
                     margin-bottom: 4%;
+
+                    .card_content {
+                        .card_bg {
+                            width: 70px;
+                        }
+                    }
                 }
 
             }
@@ -204,16 +176,16 @@
             .title_sec {
                 width: 90%;
                 margin: auto;
-                font-size: .9rem;
-                height: 40px;
-                line-height: 40px;
+                font-size: 1.1rem;
+                height: 50px;
+                line-height: 50px;
                 margin-bottom: 20px;
             }
 
             .masters {
 
                 .master_card {
-
+                    height: 280px;
                     width: 90%;
                     margin: auto;
                     margin-bottom: 30px;
@@ -223,19 +195,58 @@
                     }
 
                     .card_img {
-                        width: 160px;
-                        height: 160px;
+                        width: 200px;
+                        height: 200px;
                     }
 
                     .card_content {
-                        p{
-                            margin-top: 90px;
+
+                        height: 180px;
+
+                        p {
+                            margin-top: 120px;
+                        }
+
+                        .card_bg {
+                            width: 90px;
                         }
                     }
                 }
             }
         }
 
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .main_ms {
+
+        section {
+
+            .masters {
+
+                .master_card {
+                    height: 250px;
+
+                    .card_img {
+                        width: 180px;
+                        height: 180px;
+                    }
+
+                    .card_content {
+                        height: 160px;
+
+                        .card_bg {
+                            width: 70px;
+                        }
+
+                        p {
+                            margin-top: 110px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -247,17 +258,26 @@
             .masters {
 
                 .master_card {
-                    height: 230px;
-                    width: 90%;
-                    margin: auto;
-                    margin-bottom: 30px;
+                    height: 220px;
 
-                    &:nth-child(2n) {
-                        margin-right: auto;
+                    .card_img {
+                        width: 150px;
+                        height: 150px;
+        
                     }
 
                     .card_content {
                         height: 140px;
+
+                        .card_bg {
+                            width: 60px;
+                        }
+
+                        p {
+
+                            margin-top: 90px;
+
+                        }
                     }
                 }
             }
