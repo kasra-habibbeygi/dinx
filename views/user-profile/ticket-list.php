@@ -60,7 +60,8 @@
                 <div class="content_field">
                     <header class="main_sec_header">
                         <h3>لیست تیکت های پشتیبانی</h3>
-                        <button type="button" class="new_ticket_M"> <i class="fal fa-plus"></i><span>ثبت تیکت جدید</span></button>
+                        <button type="button" class="new_ticket_M"> <i class="fal fa-plus"></i><span>ثبت تیکت
+                                جدید</span></button>
                     </header>
 
                     <div class="general_content ticket">
@@ -87,16 +88,16 @@
                             </div>
                             <div class="T_body">
                                 <div class="T_data">
-                                    <span>ردیف : </span> ۱
+                                    ۱
                                 </div>
                                 <div class="T_data">
-                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                    ۱۶۵۷۹۰۰
                                 </div>
                                 <div class="T_data text_limited">
-                                    <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                 </div>
                                 <div class="T_data">
-                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                    ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
                                     <div class="yellow_situation pill">
@@ -111,16 +112,16 @@
                             </div>
                             <div class="T_body">
                                 <div class="T_data">
-                                    <span>ردیف : </span> ۱
+                                    ۱
                                 </div>
                                 <div class="T_data">
-                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                    ۱۶۵۷۹۰۰
                                 </div>
                                 <div class="T_data text_limited">
-                                    <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                 </div>
                                 <div class="T_data">
-                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                    ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
                                     <div class="green_situation pill">
@@ -135,16 +136,16 @@
                             </div>
                             <div class="T_body">
                                 <div class="T_data">
-                                    <span>ردیف : </span> ۱
+                                    ۱
                                 </div>
                                 <div class="T_data">
-                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                    ۱۶۵۷۹۰۰
                                 </div>
                                 <div class="T_data text_limited">
-                                    <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                 </div>
                                 <div class="T_data">
-                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                    ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
                                     <div class="green_situation pill">
