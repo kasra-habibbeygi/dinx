@@ -49,6 +49,58 @@
 
 }
 
+.new_ticket_modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.473);
+    z-index: 200;
+    padding: 80px 0px;
+    display: none;
+
+    .NT_content {
+        width: 500px;
+        margin: auto;
+        padding: 25px 0px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px -3px black;
+        position: relative;
+
+        .close_NTM {
+            border: 0;
+            background-color: transparent;
+            position: absolute;
+            top: 25px;
+            left: 33px;
+            font-size: 1.5rem;
+            color: #555;
+        }
+
+        form {
+            padding: 0px 40px;
+            width: 100%;
+            direction: rtl;
+            text-align: right;
+
+            .sub_btn {
+                width: 100%;
+                padding: 10px 0px;
+                text-align: center;
+                background-color: #1dcdfe;
+                color: #fff;
+                font-size: 1rem;
+                border-radius: 5px;
+                border: 0;
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 950px) {
 
     .main_sec_header {
@@ -63,6 +115,10 @@
         padding-left: 20px;
     }
 
+    .new_ticket_modal .NT_content {
+        width: 90%;
+    }
+
 }
 
 @media only screen and (max-width: 430px) {
@@ -72,7 +128,7 @@
     }
 
     .main_sec_header button {
-        background-color:$main_color;
+        background-color: $main_color;
         border-radius: 50px;
         width: 30px;
         height: 30px;
@@ -80,17 +136,21 @@
         justify-content: center;
         padding: 0;
 
-        &:hover{
+        &:hover {
             background-color: $main_color;
         }
 
-        i{
+        i {
             margin: 0;
         }
 
         span {
             display: none;
         }
+    }
+
+    .new_ticket_modal .NT_content form {
+        padding: 0px 20px;
     }
 
 }
