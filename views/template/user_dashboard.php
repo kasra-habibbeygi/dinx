@@ -43,7 +43,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="certificate.php">
                     <i class="fas fa-circle"></i>
                     گواهی ها
                 </a>

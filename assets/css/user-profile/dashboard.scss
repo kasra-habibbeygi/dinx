@@ -3,13 +3,13 @@
 @import '../partial/user_dashboard';
 @import '../partial/table';
 
-.table_body .T_header .T_title{
+.table_body .T_header .T_title {
 
-    &:nth-child(5){
+    &:nth-child(5) {
         min-width: 150px;
     }
 
-    &:nth-child(6){
+    &:nth-child(6) {
         min-width: 150px;
     }
 
@@ -112,34 +112,6 @@
         }
     }
 
-}
-
-.ticket {
-    width: 100%;
-
-    .T_title {
-        &:nth-child(5) {
-            min-width: 180px;
-            width: 180px;
-        }
-
-        &:nth-child(6) {
-            min-width: 180px;
-            width: 180px;
-        }
-    }
-
-    .T_data {
-        &:nth-child(5) {
-            min-width: 180px;
-            width: 180px;
-        }
-
-        &:nth-child(6) {
-            min-width: 180px;
-            width: 180px;
-        }
-    }
 }
 
 @media only screen and (max-width: 1350px) {

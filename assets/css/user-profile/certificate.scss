@@ -1,0 +1,18 @@
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/user_dashboard';
+@import '../partial/table';
+
+.profile_temp .profile_content .content_field {
+    margin-top: 0;
+}
+
+.table_body .T_header .T_title:nth-child(1) {
+    min-width: unset;
+    width: 100%;
+}
+
+.table_body .T_body .T_data:nth-child(1) {
+    min-width: unset;
+    width: 100%;
+}

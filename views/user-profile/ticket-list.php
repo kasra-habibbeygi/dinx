@@ -15,6 +15,42 @@
 <body>
 
     <?php require_once '../template/navbar.php'?>
+
+    <div class="new_ticket_modal">
+        <div class="NT_content">
+            <header class="main_sec_header">
+                <h3>ثبت تیکت جدید</h3>
+            </header>
+
+            <button class="close_NTM">
+                <i class="far fa-times"></i>
+            </button>
+
+            <form action="">
+                <div class="form_group">
+                    <label for="">عنوان</label>
+                    <input type="text">
+                </div>
+                <div class="form_group">
+                    <label for="">توضیحات</label>
+                    <textarea type="text"></textarea>
+                </div>
+                <div class="linear_lable_form">
+                    <label for="">کد امنیتی</label>
+                    <div class="captcha_main_field">
+                        <div class="form_group">
+                            <input type="text">
+                        </div>
+                        <button type="button"><i class="fal fa-sync"></i></button>
+                        <img src="../../assets/img/CE00.png" alt="captcha" title="captcha">
+                    </div>
+                </div>
+                <button type="submit" class="sub_btn">ارسال</button>
+            </form>
+
+        </div>
+    </div>
+
     <main class="user_dashboard">
         <section class="profile_temp">
             <?php require_once '../template/user_dashboard.php'?>
@@ -24,7 +60,8 @@
                 <div class="content_field">
                     <header class="main_sec_header">
                         <h3>لیست تیکت های پشتیبانی</h3>
-                        <button type="button"> <i class="fal fa-plus"></i> <span>ثبت تیکت جدید</span></button>
+                        <button type="button" class="new_ticket_M"> <i class="fal fa-plus"></i><span>ثبت تیکت
+                                جدید</span></button>
                     </header>
 
                     <div class="general_content ticket">
@@ -51,16 +88,16 @@
                             </div>
                             <div class="T_body">
                                 <div class="T_data">
-                                    <span>ردیف : </span> ۱
+                                    ۱
                                 </div>
                                 <div class="T_data">
-                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                    ۱۶۵۷۹۰۰
                                 </div>
                                 <div class="T_data text_limited">
-                                    <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                 </div>
                                 <div class="T_data">
-                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                    ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
                                     <div class="yellow_situation pill">
@@ -68,23 +105,23 @@
                                     </div>
                                 </div>
                                 <div class="T_data">
-                                    <a href="" class="blue_situation pill">
+                                    <a href="ticket-details.php" class="blue_situation pill">
                                         مشاهده جزئیات
                                     </a>
                                 </div>
                             </div>
                             <div class="T_body">
                                 <div class="T_data">
-                                    <span>ردیف : </span> ۱
+                                    ۱
                                 </div>
                                 <div class="T_data">
-                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                    ۱۶۵۷۹۰۰
                                 </div>
                                 <div class="T_data text_limited">
-                                    <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                 </div>
                                 <div class="T_data">
-                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                    ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
                                     <div class="green_situation pill">
@@ -92,23 +129,23 @@
                                     </div>
                                 </div>
                                 <div class="T_data">
-                                    <a href="" class="blue_situation pill">
+                                    <a href="ticket-details.php" class="blue_situation pill">
                                         مشاهده جزئیات
                                     </a>
                                 </div>
                             </div>
                             <div class="T_body">
                                 <div class="T_data">
-                                    <span>ردیف : </span> ۱
+                                    ۱
                                 </div>
                                 <div class="T_data">
-                                    <span>شماره پشتیبانی : </span> ۱۶۵۷۹۰۰
+                                    ۱۶۵۷۹۰۰
                                 </div>
                                 <div class="T_data text_limited">
-                                    <span>عنوان : </span> خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
+                                    خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                 </div>
                                 <div class="T_data">
-                                    <span>تاریخ : </span> ۱۴۰۰.۱۰.۳۰
+                                    ۱۴۰۰.۱۰.۳۰
                                 </div>
                                 <div class="T_data">
                                     <div class="green_situation pill">
@@ -116,7 +153,7 @@
                                     </div>
                                 </div>
                                 <div class="T_data">
-                                    <a href="" class="blue_situation pill">
+                                    <a href="ticket-details.php" class="blue_situation pill">
                                         مشاهده جزئیات
                                     </a>
                                 </div>
@@ -137,6 +174,7 @@
     <script src="../../assets/js/general/bootstrap.js"></script>
     <script src="../../assets/js/script/navbar.js"></script>
     <script src="../../assets/js/script/user_dashboard.js"></script>
+    <script src="../../assets/js/user-profile/ticket-list.js"></script>
 
 </body>
 

@@ -1,0 +1,123 @@
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/user_dashboard';
+
+.profile_temp .profile_content .content_field {
+    margin-top: 0px;
+}
+
+.ticket_title {
+    width: 100%;
+    border-top: 1px solid rgb(218, 218, 218);
+    padding-top: 30px;
+    text-align: right;
+    direction: rtl;
+    margin-bottom: 30px;
+
+    h3 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        line-height: 40px;
+        flex-wrap: wrap;
+
+        span {
+            font-size: 0.9rem;
+            font-weight: normal;
+            margin-right: 5px;
+
+            &.green {
+                color: $pill_green_bold;
+            }
+
+            &.yellow {
+                color: $pill_yellow_bold;
+            }
+        }
+    }
+}
+
+.ticket_message {
+    width: 100%;
+    background-color: #F2F6F8;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: right;
+    direction: rtl;
+    margin-bottom: 20px;
+
+    .TM_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        h3 {
+            font-size: 1.2rem;
+            color: $main_color;
+            font-weight: bold;
+        }
+
+        p {
+            color: rgb(126, 126, 126);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+    }
+
+    .message {
+        line-height: 30px;
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+
+}
+
+form {
+    .sub_btn {
+        width: 150px;
+        padding: 7px 0px;
+        text-align: center;
+        background-color: #1dcdfe;
+        color: #fff;
+        font-size: 1rem;
+        border-radius: 5px;
+        border: 0;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .ticket_message .TM_header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .profile_temp .profile_content .content_field .general_content {
+        padding: 0px 20px;
+    }
+
+    .ticket_title h3 {
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .ticket_message .TM_header h3 {
+        font-size: 1rem;
+    }
+
+    .ticket_message {
+        padding: 20px;
+    }
+}
