@@ -102,6 +102,7 @@
 
 @media only screen and (max-width: 1200px) {
     .main_arl {
+        width: $conteiner_M;
         .card_parent {
             .course_card {
                 width: 48%;
@@ -135,6 +136,22 @@
         }
     }
 }
+
+@media only screen and (max-width: 800px) {
+
+    .main_arl {
+        .card_parent {
+            .course_card {
+                .card_content{
+                    .card_short_exp{
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media only screen and (max-width: 700px) {
 
