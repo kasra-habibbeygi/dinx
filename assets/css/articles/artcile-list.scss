@@ -6,6 +6,7 @@
     margin: auto;
     text-align: right;
     margin-top: 50px;
+    margin-bottom: 50px;
     direction: rtl;
 
     .card_parent {
@@ -13,20 +14,21 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        
+
 
         .course_card {
             border-radius: 10px;
             overflow: hidden;
             box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
-            height: 430px;
+            height: 460px;
             background-color: #fff;
             width: 32%;
             margin-bottom: 2%;
             margin-left: 2%;
             text-decoration: none;
-            // background-color: red;
-
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             &:nth-child(3n) {
                 margin-left: 0;
             }
@@ -48,24 +50,26 @@
                 justify-content: center;
 
                 .card_title {
-                    font-size: 1rem;
+                    font-size: 1.1rem;
                     font-weight: bold;
                     margin-bottom: 20px;
 
                 }
 
                 .card_short_exp {
-                    font-size: 1rem;
+                    font-size: .9rem;
                     color: #858585;
+                    height: 100px;
                     margin-bottom: 20px;
                     text-align: justify;
+                    line-height: 25px;
                 }
 
                 .card_detail {
                     display: flex;
                     align-items: center;
                     color: #dadada;
-                   
+
 
                     div {
                         margin-left: 10px;
@@ -88,41 +92,110 @@
 
                 }
             }
+        }
+        
 
-            .card_footer {
-                width: 100%;
-                background-color: #F9F9F9;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 20px 15px;
+        }
+    }
 
-                i {
-                    margin-left: 10px;
-                    font-size: 1.2rem;
-                }
 
-                P {
-                    margin: 0;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-size: 1.2rem;
 
-                    span {
-                        font-size: 0.9rem;
-                        margin-right: 7px;
+@media only screen and (max-width: 1200px) {
+    .main_arl {
+        .card_parent {
+            .course_card {
+                width: 48%;
+                margin: 1% !important;
+                height: 430px;
+                .card_content {
+                    padding: 21px 15px;
+
+                    .card_detail {
+                        align-items: flex-start;
+                        justify-content: flex-start;
                     }
 
-                    &:first-child {
-                        color: $main_color;
-                    }
-
-                    &:last-child {
-                        color: $green_price;
+                    .card_short_exp{
+                        height: 80px;
                     }
                 }
             }
         }
     }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .main_arl {
+        width: 90%;
+        .card_parent{
+            .course_card{
+                height: 415px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .main_arl {
+        .card_parent {
+            .course_card {
+                width: 100%;
+                height: 400px;
+                margin: 2% 0% !important;
+                .card_content{
+                    .card_short_exp{
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 570px) {
+
+    .main_arl {
+        .card_parent {
+            .course_card {
+                .card_content{
+                    .card_short_exp{
+                        height: 80px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .main_arl {
+        .card_parent {
+            .course_card {
+                
+                height: 400px;
+                .card_content {
+                    .card_title {
+                        font-size: 0.9rem;
+                        margin-bottom: 10px;
+                    }
+
+                    .card_detail {
+
+                        div {
+                            font-size: 0.8rem;
+                        }
+                    }
+
+                    .card_short_exp{
+                        height: 100px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+
 }

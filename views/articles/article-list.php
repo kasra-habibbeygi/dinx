@@ -27,7 +27,7 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و
                     </p>
                     <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
+                        <div><i class="far fa-clock"></i>18:29</div>
                         <div>1400.10.10</div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و
                     </p>
                     <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
+                        <div><i class="far fa-clock"></i>18:29</div>
                         <div>1400.10.10</div>
                     </div>
                 </div>
@@ -55,7 +55,8 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و
                     </p>
                     <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
+                        <div><i class="far fa-clock"></i>18:29</div>
+
                         <div>1400.10.10</div>
                     </div>
 
@@ -70,55 +71,8 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و
                     </p>
                     <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
-                        <div>1400.10.10</div>
-                    </div>
+                        <div><i class="far fa-clock"></i>18:29</div>
 
-                </div>
-
-            </a>
-            <a href="#" class="course_card">
-                <div class="card_img" style="background-image: url(../../assets/img/CI01.jpg);"></div>
-                <div class="card_content">
-                    <p class="card_title">نرم افزار طراحی معماری</p>
-                    <p class="card_short_exp">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
-                        چاپگرها و متون بلکه روزنامه و مجله در ستون و
-                    </p>
-                    <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
-                        <div>1400.10.10</div>
-                    </div>
-
-                </div>
-
-            </a>
-            <a href="#" class="course_card">
-                <div class="card_img" style="background-image: url(../../assets/img/CI02.jpg);"></div>
-                <div class="card_content">
-                    <p class="card_title">نرم افزار طراحی معماری</p>
-                    <p class="card_short_exp">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
-                        چاپگرها و متون بلکه روزنامه و مجله در ستون و
-                    </p>
-                    <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
-                        <div>1400.10.10</div>
-                    </div>
-
-                </div>
-
-            </a>
-            <a href="#" class="course_card">
-                <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
-                <div class="card_content">
-                    <p class="card_title">نرم افزار طراحی معماری</p>
-                    <p class="card_short_exp">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
-                        چاپگرها و متون بلکه روزنامه و مجله در ستون و
-                    </p>
-                    <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
                         <div>1400.10.10</div>
                     </div>
 
@@ -134,7 +88,8 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و
                     </p>
                     <div class="card_detail">
-                        <div><i class="far fa-clock"></i></i>کسری حبیب بیگی</div>
+                        <div><i class="far fa-clock"></i>18:29</div>
+
                         <div>1400.10.10</div>
                     </div>
 
@@ -150,7 +105,8 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و
                     </p>
                     <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
+                        <div><i class="far fa-clock"></i>18:29</div>
+
                         <div>1400.10.10</div>
                     </div>
 
@@ -166,7 +122,59 @@
                         چاپگرها و متون بلکه روزنامه و مجله در ستون و
                     </p>
                     <div class="card_detail">
-                        <div><i class="far fa-clock"></i>کسری حبیب بیگی</div>
+                        <div><i class="far fa-clock"></i>18:29</div>
+
+                        <div>1400.10.10</div>
+                    </div>
+
+                </div>
+
+            </a>
+            <a href="#" class="course_card">
+                <div class="card_img" style="background-image: url(../../assets/img/CI01.jpg);"></div>
+                <div class="card_content">
+                    <p class="card_title">نرم افزار طراحی معماری</p>
+                    <p class="card_short_exp">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                    </p>
+                    <div class="card_detail">
+                        <div><i class="far fa-clock"></i>18:29</div>
+
+                        <div>1400.10.10</div>
+                    </div>
+
+                </div>
+
+            </a>
+            <a href="#" class="course_card">
+                <div class="card_img" style="background-image: url(../../assets/img/CI02.jpg);"></div>
+                <div class="card_content">
+                    <p class="card_title">نرم افزار طراحی معماری</p>
+                    <p class="card_short_exp">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                    </p>
+                    <div class="card_detail">
+                        <div><i class="far fa-clock"></i>18:29</div>
+
+                        <div>1400.10.10</div>
+                    </div>
+
+                </div>
+
+            </a>
+            <a href="#" class="course_card">
+                <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
+                <div class="card_content">
+                    <p class="card_title">نرم افزار طراحی معماری</p>
+                    <p class="card_short_exp">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                    </p>
+                    <div class="card_detail">
+                        <div><i class="far fa-clock"></i>18:29</div>
+
                         <div>1400.10.10</div>
                     </div>
 
