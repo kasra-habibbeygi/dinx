@@ -17,7 +17,7 @@
     <?php require_once '../template/navbar.php'?>
     <main class="main_arl">
         <?php require_once '../template/modals.php'?>
-        <div class="card_parent">
+        <section class="card_parent">
             <a href="#" class="course_card">
                 <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
                 <div class="card_content">
@@ -181,7 +181,7 @@
                 </div>
 
             </a>
-        </div>
+</section>
 
     </main>
 
