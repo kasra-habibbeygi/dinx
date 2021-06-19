@@ -19,7 +19,7 @@
         .course_card {
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             height: 460px;
             background-color: #fff;
             width: 32%;
@@ -68,25 +68,24 @@
                 .card_detail {
                     display: flex;
                     align-items: center;
-                    color: #dadada;
-
+                    color: #bababa;
 
                     div {
                         margin-left: 10px;
                         font-size: .9rem;
+                        display: flex;
+                        align-content: center;
 
                         &:first-child {
                             padding-left: 10px;
-                            border-left: 1px solid #dadada;
+                            border-left: 1px solid #e9e9e9;
                         }
 
 
                         i {
-                            color: #dadada;
+                            color: #d7d7d7;
                             margin-left: 10px;
                             font-size: 1.2rem;
-                            position: relative;
-                            top: 3px;
                         }
                     }
 

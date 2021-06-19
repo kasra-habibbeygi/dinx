@@ -17,7 +17,7 @@
 
     <?php require_once '../template/navbar.php'?>
     <main>
-    <?php require_once '../template/modals.php'?>
+        <?php require_once '../template/modals.php'?>
 
         <section class="index_header">
             <div class="IH_layout"></div>
@@ -64,7 +64,7 @@
                             <div class="CO_main_field">
 
                                 <div class="left_field">
-                                    <h3><i class="fal fa-angle-left"></i>لموزش لامبورگینی که یه تخمشو از دست داده شسیشس ی</h3>
+                                    <h3><i class="fal fa-angle-left"></i>تست</h3>
                                     <p>استاد : نادیه نجم آبادی</p>
                                     <p>بیشتر از 100 ساعت آموزش به همراه پرژه و مدرک آموزشگاه دینکس</p>
                                     <div class="price">
@@ -126,7 +126,7 @@
                     <a href="#" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
                         <div class="card_content">
-                            <p class="card_title">اموزش زبان تخمی دات جی اس به همراه پروژه در تخمستان</p>
+                            <p class="card_title">اموزش امنیت در php</p>
                             <div class="card_detail">
                                 <div><i class="fas fa-user-alt"></i>کسری حبیب بیگی</div>
                                 <div><i class="fas fa-eye"></i>۱۰۲۳</div>
@@ -371,7 +371,7 @@
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
                                 <div class="VS_info">
-                                    <h3>سلام من به تو یار قدیمی منم همون هوادار قدیمی</h3>
+                                    <h3>اموزش برنامه نویسی</h3>
                                     <div class="VS_detail">
                                         <div><i class="fas fa-user-alt"></i>کسری حبیب بیگی</div>
                                         <div><i class="fas fa-eye"></i>۱۰۲۳</div>

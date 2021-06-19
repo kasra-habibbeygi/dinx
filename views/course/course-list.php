@@ -129,10 +129,10 @@
                 </div>
             </div>
             <div class="left_field">
-                <a href="#" class="course_card">
+                <a href="course-detail.php" class="course_card">
                     <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
                     <div class="card_content">
-                        <p class="card_title">اموزش زبان تخمی دات جی اس به همراه پروژه در تخمستان</p>
+                        <p class="card_title">اموزش طراحی سایت </p>
                         <div class="card_detail">
                             <div><i class="fas fa-user-alt"></i>کسری حبیب بیگی</div>
                             <div><i class="fas fa-eye"></i>۱۰۲۳</div>
@@ -151,7 +151,7 @@
                         <span>تخفیف</span>
                     </div>
                 </a>
-                <a href="#" class="course_card">
+                <a href="course-detail.php" class="course_card">
                     <div class="card_img" style="background-image: url(../../assets/img/CI01.jpg);"></div>
                     <div class="card_content">
                         <p class="card_title">آموزش هک در PHP</p>
@@ -166,7 +166,7 @@
                         <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                     </div>
                 </a>
-                <a href="#" class="course_card">
+                <a href="course-detail.php" class="course_card">
                     <div class="card_img" style="background-image: url(../../assets/img/CI02.jpg);"></div>
                     <div class="card_content">
                         <p class="card_title">آموزش هک در PHP</p>
@@ -181,7 +181,7 @@
                         <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                     </div>
                 </a>
-                <a href="#" class="course_card">
+                <a href="course-detail.php" class="course_card">
                     <div class="card_img" style="background-image: url(../../assets/img/CI04.jpg);"></div>
                     <div class="card_content">
                         <p class="card_title">آموزش هک در PHP</p>

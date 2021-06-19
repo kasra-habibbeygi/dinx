@@ -22,7 +22,7 @@
                 <p>دینکس</p>
             </div>
             <li>
-                <a href="">خـــــانه</a>
+                <a href="../index/index.php">خـــــانه</a>
             </li>
             <li class="special">
                 <div class="menu">
@@ -136,10 +136,10 @@
                 </div>
             </li>
             <li>
-                <a href="">مقالات</a>
+                <a href="../articles/article-list.php">مقالات</a>
             </li>
             <li>
-                <a href="">همکاری با دینکس</a>
+                <a href="../collaboration/collaboration.php">همکاری با دینکس</a>
             </li>
             <li>
                 <a href="">درباره ما</a>

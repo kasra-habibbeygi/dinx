@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/general/bootstrap.css">
     <link rel="stylesheet" href="../../assets/css/general/fontAwsome.css">
     <link rel="stylesheet" href="../../assets/css/general/general-css.css">
-    <link rel="stylesheet" href="../../assets/css/masters/collaboration.css">
+    <link rel="stylesheet" href="../../assets/css/collaboration/collaboration.css">
     <title> دینکس | همکاری با دینکس</title>
 </head>
 
@@ -65,6 +65,10 @@
                             <label for="ch_f" class="ch_f"></label>
                             <input type="file" class="form-control-file" id="ch_f" hidden />
                         </div>
+                        <div class="form-group">
+                            <label for="exp">توضیحات</label>
+                            <textarea id="exp" rows="3"></textarea>
+                        </div>                        
                         <div class="linear_lable_form">
                             <label for="">کد امنیتی</label>
                             <div class="captcha_main_field">
@@ -74,10 +78,6 @@
                                 <button type="button"><i class="fal fa-sync"></i></button>
                                 <img src="../../assets/img/CE00.png" alt="captcha" title="captcha">
                             </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="exp">توضیحات</label>
-                            <textarea id="exp" rows="3"></textarea>
                         </div>
                         <button type="submit" class="submit_btn">ارسال</button>
                     </form>

@@ -6,7 +6,7 @@
     width: $conteiner;
     border-radius: 5px;
     padding: 15px 15px;
-    box-shadow: rgba(99, 99, 99, 0.082) 0px 2px 8px 0px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +79,7 @@
         .course_card {
             border-radius: 10px;
             overflow: hidden;
-            box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             height: 366px;
             background-color: #fff;
             width: 32%;
@@ -243,7 +243,7 @@
         background-color: white;
         border-radius: 10px;
         padding: 20px 0px;
-        box-shadow: rgba(99, 99, 99, 0.082) 0px 2px 8px 0px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
         button {
             width: 84%;

@@ -21,7 +21,7 @@
         <section>
             <h3 class="title_sec">لیست اساتید دینکس</h3>
             <div class="masters">
-                <a href="#" class="master_card">
+                <a href="master-profile.php" class="master_card">
                     <div class="card_img" style="background-image: url(../../assets/img/MI00.jpg)"></div>
                     <div class="card_content">
                         <img src="../../assets/img/CB01.svg" class="card_bg">
@@ -29,7 +29,7 @@
                         <img src="../../assets/img/CB01.svg" class="card_bg CI_1">
                     </div>
                 </a>
-                <a href="#" class="master_card">
+                <a href="master-profile.php" class="master_card">
                     <div class="card_img" style="background-image: url(../../assets/img/MI01.jpg)"></div>
                     <div class="card_content">
                         <img src="../../assets/img/CB01.svg" class="card_bg">
@@ -37,7 +37,7 @@
                         <img src="../../assets/img/CB01.svg" class="card_bg CI_1">
                     </div>
                 </a>
-                <a href="#" class="master_card">
+                <a href="master-profile.php" class="master_card">
                     <div class="card_img" style="background-image: url(../../assets/img/MI00.jpg)"></div>
                     <div class="card_content">
                         <img src="../../assets/img/CB01.svg" class="card_bg">
@@ -45,7 +45,7 @@
                         <img src="../../assets/img/CB01.svg" class="card_bg CI_1">
                     </div>
                 </a>
-                <a href="#" class="master_card">
+                <a href="master-profile.php" class="master_card">
                     <div class="card_img" style="background-image: url(../../assets/img/MI01.jpg)"></div>
                     <div class="card_content">
                         <img src="../../assets/img/CB01.svg" class="card_bg">

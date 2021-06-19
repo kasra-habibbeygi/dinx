@@ -33,31 +33,38 @@
                 p {
                     text-align: justify;
                     margin-bottom: 25px;
-                    color: dimgray;
+                    color: #4f4f4f;
+                    line-height: 28px;
+                    font-size: 0.9rem;
                 }
 
                 form {
                     width: 100%;
 
-                    .form_group{
+                    .form_group {
 
-                        .cfl{
+                        .cfl {
                             display: flex;
                             align-items: center;
-                            div{
+
+                            div {
                                 width: 82%;
                                 display: flex;
                                 justify-content: space-between;
-                                span{
+
+                                span {
                                     font-size: 0.8rem;
-                                    &:first-child{
-                                        color: $red_price;
+                                    color: #666283;
+
+                                    &:first-child {
+                                        color: #ff0e0e;
                                         margin-right: 10px;
                                     }
                                 }
                             }
-                            
+
                         }
+
                         .ch_f {
                             width: 100%;
                             border-radius: 5px;
@@ -80,37 +87,37 @@
                         justify-content: center;
                         flex-wrap: wrap;
                         margin-bottom: 25px;
-                    
+
                         .captcha_main_field {
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             width: 100%;
                         }
-                    
+
                         label {
                             width: 100%;
                         }
-                    
+
                         button {
                             width: 40px;
                             height: 40px;
                             border: none;
                             background-color: transparent;
                         }
-                    
+
                         img {
                             width: 100px;
                             height: 40px;
                         }
-                    
-                        .form_group{
+
+                        .form_group {
                             width: 100%;
                             margin: 0;
                         }
                     }
 
-                   
+
 
                     .submit_btn {
                         width: 100%;
@@ -134,7 +141,7 @@
 
 @media only screen and (max-width: 1200px) {
     .main_cwd {
-       width: $conteiner_M;
+        width: $conteiner_M;
     }
 }
 
@@ -148,29 +155,29 @@
 @media only screen and (max-width: 550px) {
 
     .main_cwd {
-        .collaboration{
-            .content_field{
-                .CP_main_field{
-                   form{
-                    .form_group{
-                        .cfl{
-                            align-items: flex-start;
-                            flex-direction: column;
+        .collaboration {
+            .content_field {
+                .CP_main_field {
+                    form {
+                        .form_group {
+                            .cfl {
+                                align-items: flex-start;
+                                flex-direction: column;
 
-                            div{
-                                width: 100%;
+                                div {
+                                    width: 100%;
 
-                                span{
-                                    &:first-child {
-                                      
-                                        margin-right: 0px;
+                                    span {
+                                        &:first-child {
+
+                                            margin-right: 0px;
+                                        }
                                     }
                                 }
                             }
                         }
                     }
-                   }
-                  
+
                 }
             }
         }
@@ -178,26 +185,27 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .main_cwd{
-        .collaboration{
-            .content_field{
+    .main_cwd {
+        .collaboration {
+            .content_field {
                 width: 100%;
-                .CP_main_field{
-                    p{
-                            font-size: .9rem;   
+
+                .CP_main_field {
+                    p {
+                        font-size: .9rem;
                     }
                 }
             }
         }
     }
-    
+
 }
 
 @media only screen and (max-width: 400px) {
-    .main_cwd{
-        .collaboration{
-            .content_field{
-                .CP_main_field{
+    .main_cwd {
+        .collaboration {
+            .content_field {
+                .CP_main_field {
                     padding: 0px 20px;
                 }
             }

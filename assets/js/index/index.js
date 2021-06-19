@@ -23,6 +23,7 @@ var swiper = new Swiper(".CO_slider", {
     autoplay: true,
     loop: true,
     speed: 1500,
+    delay:4000,
     navigation: {
         nextEl: ".CO_next",
         prevEl: ".CO_prev",

@@ -26,7 +26,7 @@
                 </div>
             </header>
             <div class="hr"></div>
-            <div class="ard_img"></div>
+            <div class="ard_img" style="background-image: url(../../assets/img/CI04.jpg);"></div>
             <div class="exp_contetnt_ard">
                 <h3>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h3>
                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
@@ -62,7 +62,7 @@
                     تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
                     دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
                 </p>
-                
+
             </div>
         </div>
 
@@ -73,13 +73,13 @@
             <ul>
                 <a href="#">
                     <li>
-                        <img src="../../assets/img/Al03.jpg" class="sidebar_img">
+                        <div class="suggest_card" style="background-image: url(../../assets/img/CI00.jpg);"></div>
                         <p>نرم افزار های طراحی معماری</p>
                     </li>
                 </a>
                 <a href="#">
                     <li>
-                        <img src="../../assets/img/Al00.jpg" class="sidebar_img">
+                        <div class="suggest_card" style="background-image: url(../../assets/img/CI01.jpg);"></div>
                         <p>افزونه yoast seo بهترین
                             پلاگین سئو وردپرس
                         </p>
@@ -87,13 +87,13 @@
                 </a>
                 <a href="#">
                     <li>
-                        <img src="../../assets/img/Al01.jpg" class="sidebar_img">
+                        <div class="suggest_card" style="background-image: url(../../assets/img/CI02.jpg);"></div>
                         <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
                     </li>
                 </a>
                 <a href="#">
                     <li>
-                        <img src="../../assets/img/Al02.jpg" class="sidebar_img">
+                        <div class="suggest_card" style="background-image: url(../../assets/img/CI05.jpg);"></div>
                         <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
                     </li>
                 </a>
