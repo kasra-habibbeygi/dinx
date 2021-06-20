@@ -16,6 +16,261 @@
 
     <?php require_once '../template/navbar.php'?>
 
+    <div class="upload_modal">
+        <div class="upload_content">
+
+            <header class="main_sec_header">
+                <h3>ارسال تکلیف</h3>
+            </header>
+
+            <button class="close_UM">
+                <i class="far fa-times"></i>
+            </button>
+
+            <div class="upload_field">
+                <form action="">
+                    <div class="form_group">
+                        <label for="">توضیحات</label>
+                        <textarea type="text"></textarea>
+                    </div>
+                    <div class="form_group">
+                        <label for="">توضیحات</label>
+                        <input type="file">
+                    </div>
+                    <div class="btn_group">
+                        <button type="submit">ارسال</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="exsm_modal">
+        <div class="exam_content">
+
+            <header class="main_sec_header">
+                <h3>آزمون پایان فصل</h3>
+            </header>
+
+            <button class="EM_close">
+                <i class="far fa-times"></i>
+            </button>
+
+            <div class="exam_info">
+                <form action="">
+                    <div class="one_Q_field">
+                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در نظر گرفتن پنالتی( در
+                            یک
+                            مساله
+                            کلاسه بندی دو کلاسه در فضای دوبعدی با n داده آموزشی داده شده است. نتیجه حاصل k=2 بردار
+                            پشتیبان
+                            بوده
+                            است. در صورتی که یک داده برچس بدار دلخواه به مجموعه داده های قبلی اضافه کرده و مجددا کلاسه
+                            بند
+                            را
+                            آموزش دهیم، حداکثر چند ) بردار پشتیبان ممکن است به دست آید؟</p>
+                        <div class="option">
+                            <div>
+                                <p>۱ -</p>
+                                <input class="inp-cbx" id="OP_1_1" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_1">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>k</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۲ -</p>
+                                <input class="inp-cbx" id="OP_1_2" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_2">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>k+1</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۳ -</p>
+                                <input class="inp-cbx" id="OP_1_3" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_3">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>n</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۴ -</p>
+                                <input class="inp-cbx" id="OP_1_4" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_4">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>n+1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one_Q_field">
+                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در نظر گرفتن پنالتی( در
+                            یک
+                            مساله
+                            کلاسه بندی دو کلاسه در فضای دوبعدی با n داده آموزشی داده شده است. نتیجه حاصل k=2 بردار
+                            پشتیبان
+                            بوده
+                            است. در صورتی که یک داده برچس بدار دلخواه به مجموعه داده های قبلی اضافه کرده و مجددا کلاسه
+                            بند
+                            را
+                            آموزش دهیم، حداکثر چند ) بردار پشتیبان ممکن است به دست آید؟</p>
+                        <div class="option">
+                            <div>
+                                <p>۱ -</p>
+                                <input class="inp-cbx" id="OP_1_1" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_1">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>k</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۲ -</p>
+                                <input class="inp-cbx" id="OP_1_2" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_2">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>k+1</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۳ -</p>
+                                <input class="inp-cbx" id="OP_1_3" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_3">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>n</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۴ -</p>
+                                <input class="inp-cbx" id="OP_1_4" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_4">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>n+1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one_Q_field">
+                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در نظر گرفتن پنالتی( در
+                            یک
+                            مساله
+                            کلاسه بندی دو کلاسه در فضای دوبعدی با n داده آموزشی داده شده است. نتیجه حاصل k=2 بردار
+                            پشتیبان
+                            بوده
+                            است. در صورتی که یک داده برچس بدار دلخواه به مجموعه داده های قبلی اضافه کرده و مجددا کلاسه
+                            بند
+                            را
+                            آموزش دهیم، حداکثر چند ) بردار پشتیبان ممکن است به دست آید؟</p>
+                        <div class="option">
+                            <div>
+                                <p>۱ -</p>
+                                <input class="inp-cbx" id="OP_1_1" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_1">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>k</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۲ -</p>
+                                <input class="inp-cbx" id="OP_1_2" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_2">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>k+1</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۳ -</p>
+                                <input class="inp-cbx" id="OP_1_3" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_3">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>n</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div>
+                                <p>۴ -</p>
+                                <input class="inp-cbx" id="OP_1_4" type="radio" name="option1" style="display: none" />
+                                <label class="cbx" for="OP_1_4">
+                                    <span>
+                                        <svg width="12px" height="9px" viewbox="0 0 12 9">
+                                            <polyline points="1 5 4 8 11 1"></polyline>
+                                        </svg>
+                                    </span>
+                                    <span>n+1</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="exam_sub">
+                        <button type="submit">پایان و ثبت آزمون</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <main>
         <?php require_once '../template/modals.php'?>
 
@@ -49,11 +304,21 @@
                                     <div class="session_info">
                                         <p>معرفی دوره</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
-                                        <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="play_video" href="" data-toggle="tooltip" data-placement="top"
+                                            title="مشاهده جلسه">
+                                            <i class="fal fa-play"></i>
+                                        </a>
+                                        <button type="button" class="upload" data-toggle="tooltip" data-placement="top"
+                                            title="اپلود تکلیف">
+                                            <i class="fal fa-upload"></i>
+                                        </button>
+                                        <a class="download" href="" data-toggle="tooltip" data-placement="top"
+                                            title="دانلود جلسه">
+                                            <i class="fal fa-arrow-alt-to-bottom"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -62,12 +327,12 @@
                                     <div class="session_info">
                                         <p>آموزش مقدماتی HTML و CSS</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="homework"><i class="fal fa-paperclip"></i></button>
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -76,11 +341,11 @@
                                     <div class="session_info">
                                         <p>آموزش flexbox</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -89,11 +354,11 @@
                                     <div class="session_info">
                                         <p>طراحی صفحه اصلی سایت دینکس</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +367,7 @@
                                     <div class="session_info">
                                         <p>آزمون پایان فصل</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="exam"><i class="fal fa-pencil-alt"></i></button>
@@ -119,11 +384,11 @@
                                     <div class="session_info">
                                         <p>معرفی دوره</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -132,12 +397,12 @@
                                     <div class="session_info">
                                         <p>آموزش مقدماتی HTML و CSS</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="homework"><i class="fal fa-paperclip"></i></button>
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -146,11 +411,11 @@
                                     <div class="session_info">
                                         <p>آموزش flexbox</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -159,11 +424,11 @@
                                     <div class="session_info">
                                         <p>طراحی صفحه اصلی سایت دینکس</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -172,7 +437,7 @@
                                     <div class="session_info">
                                         <p>آزمون پایان فصل</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="exam"><i class="fal fa-pencil-alt"></i></button>
@@ -189,11 +454,11 @@
                                     <div class="session_info">
                                         <p>معرفی دوره</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -202,12 +467,12 @@
                                     <div class="session_info">
                                         <p>آموزش مقدماتی HTML و CSS</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="homework"><i class="fal fa-paperclip"></i></button>
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -216,11 +481,11 @@
                                     <div class="session_info">
                                         <p>آموزش flexbox</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -229,11 +494,11 @@
                                     <div class="session_info">
                                         <p>طراحی صفحه اصلی سایت دینکس</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -242,7 +507,7 @@
                                     <div class="session_info">
                                         <p>آزمون پایان فصل</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="exam"><i class="fal fa-pencil-alt"></i></button>
@@ -259,11 +524,11 @@
                                     <div class="session_info">
                                         <p>معرفی دوره</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -272,12 +537,12 @@
                                     <div class="session_info">
                                         <p>آموزش مقدماتی HTML و CSS</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="homework"><i class="fal fa-paperclip"></i></button>
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -286,11 +551,11 @@
                                     <div class="session_info">
                                         <p>آموزش flexbox</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -299,11 +564,11 @@
                                     <div class="session_info">
                                         <p>طراحی صفحه اصلی سایت دینکس</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -312,7 +577,7 @@
                                     <div class="session_info">
                                         <p>آزمون پایان فصل</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="exam"><i class="fal fa-pencil-alt"></i></button>
@@ -329,11 +594,11 @@
                                     <div class="session_info">
                                         <p>معرفی دوره</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -342,12 +607,12 @@
                                     <div class="session_info">
                                         <p>آموزش مقدماتی HTML و CSS</p>
                                         <p>48 دقیقه</p>
-                                        <p>رایگان</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="homework"><i class="fal fa-paperclip"></i></button>
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -356,11 +621,11 @@
                                     <div class="session_info">
                                         <p>آموزش flexbox</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -369,11 +634,11 @@
                                     <div class="session_info">
                                         <p>طراحی صفحه اصلی سایت دینکس</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <a class="play_video" href=""><i class="fal fa-play"></i></a>
-                                        <a class="download" href=""><i class="fal fa-download"></i></a>
+                                        <a class="download" href=""><i class="fal fa-arrow-alt-to-bottom"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -382,7 +647,7 @@
                                     <div class="session_info">
                                         <p>آزمون پایان فصل</p>
                                         <p>48 دقیقه</p>
-                                        <p> نقدی</p>
+                                        <p><i class="far fa-lock-open-alt"></i></p>
                                     </div>
                                     <div class="session_act">
                                         <button type="button" class="exam"><i class="fal fa-pencil-alt"></i></button>
