@@ -8,24 +8,20 @@
     <link rel="stylesheet" href="../../assets/css/general/bootstrap.css">
     <link rel="stylesheet" href="../../assets/css/general/fontAwsome.css">
     <link rel="stylesheet" href="../../assets/css/general/general-css.css">
-    <link rel="stylesheet" href="../../assets/css/user-profile/home-work.css">
+    <link rel="stylesheet" href="../../assets/css/user-profile/forum.css">
     <title>دینکس | بترین سایت آموزشی</title>
 </head>
 
 <body>
     <?php require_once '../template/navbar.php'?>
 
-    <div class="home_work_detrail_modal">
-        <div class="HW_content">
+    <div class="forum_detail_modal">
+        <div class="FD_content">
             <header class="main_sec_header">
                 <h3>جزئیات تکلیف</h3>
             </header>
 
-            <button class="close_HWM">
-                <i class="far fa-times"></i>
-            </button>
-
-            <div class="HW_info">
+            <div class="FD_info">
                 <div>
                     <span>نام دوره : </span>
                     <p>آموزش صفر تا صد صراحی وب سایت</p>
@@ -35,34 +31,35 @@
                     <p>یادگیری ماشین</p>
                 </div>
                 <div>
-                    <span>تاریخ ارسال : </span>
+                    <span>نام درس : </span>
+                    <p>یادگیری ماشین</p>
+                </div>
+                <div>
+                    <span>تاریخ ثبت : </span>
                     <p>۱۴۰۰.۰۱.۰۱ ۱۰:۴۵</p>
                 </div>
                 <div>
-                    <span>استاد : </span>
-                    <p>کسری حبیب بیگی</p>
+                    <span>وضعیت : </span>
+                    <p class="green">تایید شده توسط مدیر</p>
                 </div>
                 <div>
-                    <span>نمره تکلیف : </span>
-                    <p>۱۸ از ۲۰</p>
+                    <span>لینک : </span>
+                    <a href="#" class="blue">لینک مشاهده فروم</a>
                 </div>
                 <div class="block_content">
-                    <span>توضیحات : </span>
-                    <p>سلام استاد وفتتون به خیر باشه این تمرین فصل 2 هست گفته بودید انجام بشه حتما و ارسال کنیم بهتون ،
-                        یه سوال هم داشتم که داخل تکلیف پرسیدم اون هم جواب بدید ممنون میشم .</p>
+                    <span>عنوان سوال : </span>
+                    <p>عدم توانایی در دسترسی به سورس کد ها در سایت</p>
                 </div>
-                <div class="block_content"><span>پاسخ استاد : </span>
-                    <p>سلام وقت شما هم به خیر باشه ، بسیار عالی بود جواب سوالتون هم به ایمیلتون ارسال میکنم حتما .</p>
+                <div class="block_content">
+                    <span>متن سوال : </span>
+                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                        چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                        مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای لورم ایپسوم متن
+                        ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
+                        روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای
+                        متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای</p>
                 </div>
-                <div>
-                    <span>تاریخ پاسخ استاد : </span>
-                    <p>۱۴۰۰.۰۱.۰۱</p><span class="time">ساعت : </span>
-                    <p> ۱۰:۴۵</p>
-                </div>
-                <div>
-                    <span>دانلود فایل ارسال شده : </span><a href=""><i class="fas fa-file-download"></i></a>
-                </div>
-                <button type="submit" class="sub_btn">بازگشت</button>
+                <button type="submit" class="sub_btn close_FDM">بازگشت</button>
             </div>
 
         </div>
@@ -92,7 +89,7 @@
                                     نام فصل
                                 </div>
                                 <div class="T_title text_limited">
-                                    سوال
+                                    عنوان سوال
                                 </div>
                                 <div class="T_title">
                                     تاریخ ثبت
@@ -126,7 +123,8 @@
                                     </div>
                                 </div>
                                 <div class="T_data link">
-                                    <button class="HWM_open"><i class="fas fa-info"></i></button>
+                                    <button class=" FDM_open"><i class="fas fa-info"></i></button>
+                                    <button><i class="far fa-link"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -145,7 +143,7 @@
     <script src="../../assets/js/general/bootstrap.js"></script>
     <script src="../../assets/js/script/navbar.js"></script>
     <script src="../../assets/js/script/user_dashboard.js"></script>
-    <script src="../../assets/js/user-profile/home-work.js"></script>
+    <script src="../../assets/js/user-profile/forum.js"></script>
 
 </body>
 

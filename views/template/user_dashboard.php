@@ -25,7 +25,7 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="forum.php">
                     <i class="fas fa-circle"></i>
                     فروم های من
                 </a>

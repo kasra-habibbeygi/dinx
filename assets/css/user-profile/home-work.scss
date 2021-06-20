@@ -11,7 +11,7 @@
     .T_data {
         button {
             background-color: $pill_blue_light;
-            border: 1px solid $pill_blue_bold;
+            border: none;
             color: $pill_blue_bold;
             border-radius: 3px;
             width: 30px;
@@ -95,16 +95,6 @@
                 border-radius: 5px;
                 border: 0;
             }
-        }
-
-        .close_HWM {
-            border: 0;
-            background-color: transparent;
-            position: absolute;
-            top: 25px;
-            left: 33px;
-            font-size: 1.5rem;
-            color: #555;
         }
     }
 }

@@ -7,11 +7,18 @@
     margin-top: 0px;
 }
 
+.table_body .text_limited {
+    min-width: 160px;
+    width: 160px !important;
+}
+
 .forum {
+
     .T_data {
+
         button {
             background-color: $pill_blue_light;
-            border: 1px solid $pill_blue_bold;
+            border: none;
             color: $pill_blue_bold;
             border-radius: 3px;
             width: 30px;
@@ -20,7 +27,7 @@
     }
 }
 
-.home_work_detrail_modal {
+.forum_detail_modal {
     width: 100%;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.473);
@@ -32,7 +39,7 @@
     z-index: 200;
     display: none;
 
-    .HW_content {
+    .FD_content {
         width: 500px;
         margin: 0px auto;
         background-color: white;
@@ -41,7 +48,7 @@
         padding: 25px 0px;
         position: relative;
 
-        .HW_info {
+        .FD_info {
             width: 100%;
             padding: 0px 40px;
             direction: rtl;
@@ -69,19 +76,26 @@
                     margin-right: 20px;
                 }
 
-                p {
+                p,
+                a {
+
                     color: #5A5A5A;
                     font-size: 0.9rem;
                     line-height: 28px;
                     margin: 0;
                     text-align: justify;
-                }
 
-                a {
-                    color: $main_color;
-                    font-size: 2rem;
-                    position: relative;
-                    top: -8px;
+                    &.green {
+                        color: $pill_green_bold;
+                    }
+
+                    &.red {
+                        color: $red_price;
+                    }
+
+                    &.blue {
+                        color: $main_color;
+                    }
                 }
             }
 
@@ -96,47 +110,90 @@
                 border: 0;
             }
         }
+    }
+}
 
-        .close_HWM {
-            border: 0;
-            background-color: transparent;
-            position: absolute;
-            top: 25px;
-            left: 33px;
-            font-size: 1.5rem;
-            color: #555;
+@media only screen and (max-width: 1320px) {
+
+    .table_body .T_header .T_title {
+        &:nth-child(6) {
+            min-width: 160px;
+            width: 160px;
+        }
+    }
+
+    .table_body .T_body .T_data {
+        &:nth-child(6) {
+            min-width: 160px;
+            width: 160px;
         }
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 1150px) {
 
-    .home_work_detrail_modal .HW_content {
-        width: 90%;
+    .profile_temp .profile_content .content_field .general_content {
+        overflow: hidden;
     }
 
-    .home_work_detrail_modal {
-        padding: 50px 0px;
+    .table_body {
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            height: 5px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #ebebeb;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: rgb(197, 197, 197);
+        }
+
+        &::-webkit-scrollbar-thumb:hover {
+            background: rgb(85, 94, 129);
+        }
+
+    }
+
+    .table_body .T_header {
+        width: 1000px;
+    }
+
+    .table_body .T_body {
+        width: 1000px;
     }
 
 }
 
+@media only screen and (max-width: 550px) {
+
+    .forum_detail_modal .FD_content {
+        width: 90%;
+    }
+
+    .forum_detail_modal {
+        padding: 50px 0px;
+    }
+}
+
 @media only screen and (max-width: 420px) {
 
-    .home_work_detrail_modal .HW_content .HW_info div {
+    .forum_detail_modal .FD_content .FD_info div {
         flex-direction: column;
     }
 
-    .home_work_detrail_modal .HW_content .HW_info div .time {
+    .forum_detail_modal .FD_content .FD_info div .time {
         margin-right: 0;
         margin-top: 20px;
     }
 
-    .home_work_detrail_modal .HW_content .HW_info div a {
+    .forum_detail_modal .FD_content .FD_info div a {
         top: 0;
     }
 
-    .home_work_detrail_modal .HW_content .HW_info button {
+    .forum_detail_modal .FD_content .FD_info button {
         padding: 6px 0px;
     }
 }

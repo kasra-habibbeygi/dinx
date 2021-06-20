@@ -21,10 +21,6 @@
                 <h3>جزئیات تکلیف</h3>
             </header>
 
-            <button class="close_HWM">
-                <i class="far fa-times"></i>
-            </button>
-
             <div class="HW_info">
                 <div>
                     <span>نام دوره : </span>
@@ -60,7 +56,7 @@
                 <div>
                     <span>دانلود فایل ارسال شده : </span><a href=""><i class="fas fa-file-download"></i></a>
                 </div>
-                <button type="submit" class="sub_btn">بازگشت</button>
+                <button type="submit" class="sub_btn close_HWM">بازگشت</button>
             </div>
 
         </div>
