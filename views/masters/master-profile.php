@@ -66,7 +66,7 @@
                 <a href="#" class="course_card">
                     <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
                     <div class="card_content">
-                        <p class="card_title">اموزش زبان تخمی دات جی اس به همراه پروژه در تخمستان</p>
+                        <p class="card_title">اموزش زبان R</p>
                         <div class="card_detail">
                             <div><i class="fas fa-user-alt"></i>کسری حبیب بیگی</div>
                             <div><i class="fas fa-eye"></i>۱۰۲۳</div>

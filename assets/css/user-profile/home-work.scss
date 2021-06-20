@@ -1,0 +1,142 @@
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/user_dashboard';
+@import '../partial/table';
+
+.profile_temp .profile_content .content_field {
+    margin-top: 0px;
+}
+
+.home_work {
+    .T_data {
+        button {
+            background-color: $pill_blue_light;
+            border: 1px solid $pill_blue_bold;
+            color: $pill_blue_bold;
+            border-radius: 3px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
+
+.home_work_detrail_modal {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.473);
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    padding: 80px 0px;
+    z-index: 200;
+    display: none;
+
+    .HW_content {
+        width: 500px;
+        margin: 0px auto;
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.452);
+        padding: 25px 0px;
+        position: relative;
+
+        .HW_info {
+            width: 100%;
+            padding: 0px 40px;
+            direction: rtl;
+            text-align: right;
+
+            .block_content {
+                flex-direction: column;
+            }
+
+            div {
+                display: flex;
+                align-content: center;
+                justify-content: flex-start;
+                margin-bottom: 20px;
+
+                span {
+                    color: #a4a0b0;
+                    margin-left: 10px;
+                    font-size: 0.9rem;
+                    line-height: 28px;
+                    flex-shrink: 0;
+                }
+
+                .time {
+                    margin-right: 20px;
+                }
+
+                p {
+                    color: #5A5A5A;
+                    font-size: 0.9rem;
+                    line-height: 28px;
+                    margin: 0;
+                    text-align: justify;
+                }
+
+                a {
+                    color: $main_color;
+                    font-size: 2rem;
+                    position: relative;
+                    top: -8px;
+                }
+            }
+
+            button {
+                width: 100%;
+                padding: 10px 0px;
+                text-align: center;
+                background-color: $main_color;
+                color: #fff;
+                font-size: 1rem;
+                border-radius: 5px;
+                border: 0;
+            }
+        }
+
+        .close_HWM {
+            border: 0;
+            background-color: transparent;
+            position: absolute;
+            top: 25px;
+            left: 33px;
+            font-size: 1.5rem;
+            color: #555;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .home_work_detrail_modal .HW_content {
+        width: 90%;
+    }
+
+    .home_work_detrail_modal {
+        padding: 50px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .home_work_detrail_modal .HW_content .HW_info div {
+        flex-direction: column;
+    }
+
+    .home_work_detrail_modal .HW_content .HW_info div .time {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .home_work_detrail_modal .HW_content .HW_info div a {
+        top: 0;
+    }
+
+    .home_work_detrail_modal .HW_content .HW_info button {
+        padding: 6px 0px;
+    }
+}
