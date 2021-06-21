@@ -1,0 +1,52 @@
+.chose_file_custom {
+    width: 100%;
+    height: 38px;
+    padding-right: 10px;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 2px dashed #73c6f980;
+    margin: 0;
+    color: rgb(138, 138, 138);
+    cursor: pointer;
+    position: relative;
+    @include transition(0.2s , linear , 0s);
+
+    &:hover{
+        border: 2px dashed #73c6f9;
+    }
+    
+    i{
+        color: $main_color;
+    }
+
+    span {
+        font-size: 0.9rem;
+        position: relative;
+        top: -2px;
+    }
+}
+
+.chose_file_title {
+    margin-bottom: 10px;
+}
+
+.fa-times-circle{
+    color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 42px;
+    left: 8px;
+    z-index: 100;
+    font-size: 1.4rem;
+    cursor: pointer;
+    display: none;
+    &:hover{
+        color: red;
+    }
+}
+
+.small_inp_upload{
+    color: red;
+    display: block;
+    margin-top: 10px;
+}

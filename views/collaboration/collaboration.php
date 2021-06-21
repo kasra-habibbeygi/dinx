@@ -26,11 +26,11 @@
                 </header>
 
                 <div class="CP_main_field">
-                    <p>
+                    <p class="CP_title">
                         دینکس از تمامی اساتید و متخصصین که در حوزه های کاربری و تخصصی مشغول به فعالیت هستند، دعوت می کند
                         که با دینکس همراه شوند.
                     </p>
-                    <p>
+                    <p class="CP_title">
                         شما با پر کردن فرم زیر و ضمیمه کردن رزومه خود می توانید درخواست همکاری خود را برای دینکس ارسال
                         فرمایید.
                     </p>
@@ -55,20 +55,22 @@
                             <label for="">ایمیل</label>
                             <input type="text">
                         </div>
-                        <div class="form_group">
-                            <label for="" class="cfl">فایل رزومه
-                                <div>
-                                    <span>(حجم مجاز 3 مگ)</span>
-                                    <span>(PDF , DOC , DOCX , MP3)</span>
-                                </div>
-                            </label>
-                            <label for="ch_f" class="ch_f"></label>
-                            <input type="file" class="form-control-file" id="ch_f" hidden />
-                        </div>
                         <div class="form-group">
                             <label for="exp">توضیحات</label>
                             <textarea id="exp" rows="3"></textarea>
-                        </div>                        
+                        </div>
+                        <div class="form_group">
+                            <p class="chose_file_title">اپلود رزومه</p>
+                            <i class="fal fa-times-circle"></i>
+                            <label for="file_upload" class="chose_file_custom">
+                                <i class="fal fa-paperclip"></i>
+                                <span class="link_of_attach_file"></span>
+                            </label>
+                            <input type="file" class="d-none file_ajax" name="portfolio_inp" id="file_upload"
+                                accept=".docx,.doc,.pdf,.md,.pptx,.ppt,.txt">
+                            <small class="small_inp_upload">* حداکثر حجم مجاز برای اپلود رزومه 10 مگابایت میباشد
+                                .</small>
+                        </div>
                         <div class="linear_lable_form">
                             <label for="">کد امنیتی</label>
                             <div class="captcha_main_field">
@@ -93,6 +95,7 @@
     <script src="../../assets/js/general/jquery.js"></script>
     <script src="../../assets/js/script/navbar.js"></script>
     <script src="../../assets/js/script/modals.js"></script>
+    <script src="../../assets/js/script/uploader.js"></script>
 
 </body>
 

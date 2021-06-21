@@ -2,6 +2,7 @@
 @import '../partial/mixin';
 @import '../partial/modals';
 @import '../partial/checkbox';
+@import '../partial/uploader';
 
 .course_detail_main_field {
     width: $conteiner;
@@ -473,9 +474,16 @@
             padding: 0px 40px;
 
             form {
+
                 width: 100%;
                 direction: rtl;
                 text-align: right;
+
+                input[type=file] {
+                    display: none;
+                }
+
+                .HW_upload {}
 
                 button {
                     width: 100%;
@@ -719,6 +727,14 @@
 
 }
 
+@media only screen and (max-width: 550px) {
+
+    .upload_modal .upload_content {
+        width: 90%;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
     .exsm_modal .exam_content .exam_info .one_Q_field .exam_title {
@@ -759,6 +775,10 @@
 
     .course_detail_main_field .right_field .course_sessions_field {
         padding: 0px 10px;
+    }
+
+    .upload_modal .upload_content .upload_field {
+        padding: 0px 20px;
     }
 
 }

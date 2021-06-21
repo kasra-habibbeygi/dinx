@@ -34,8 +34,15 @@
                         <textarea type="text"></textarea>
                     </div>
                     <div class="form_group">
-                        <label for="">توضیحات</label>
-                        <input type="file">
+                        <p class="chose_file_title">اپلود تکلیف</p>
+                        <i class="fal fa-times-circle"></i>
+                        <label for="file_upload" class="chose_file_custom">
+                            <i class="fal fa-paperclip"></i>
+                            <span class="link_of_attach_file"></span>
+                        </label>
+                        <input type="file" class="d-none file_ajax" name="portfolio_inp" id="file_upload"
+                            accept=".docx,.doc,.pdf,.md,.pptx,.ppt,.txt">
+                        <small class="small_inp_upload">* حداکثر حجم مجاز برای اپلود تکالیف 10 مگابایت میباشد .</small>
                     </div>
                     <div class="btn_group">
                         <button type="submit">ارسال</button>
@@ -60,7 +67,8 @@
             <div class="exam_info">
                 <form action="">
                     <div class="one_Q_field">
-                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در نظر گرفتن پنالتی( در
+                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در
+                            نظر گرفتن پنالتی( در
                             یک
                             مساله
                             کلاسه بندی دو کلاسه در فضای دوبعدی با n داده آموزشی داده شده است. نتیجه حاصل k=2 بردار
@@ -128,7 +136,8 @@
                         </div>
                     </div>
                     <div class="one_Q_field">
-                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در نظر گرفتن پنالتی( در
+                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در
+                            نظر گرفتن پنالتی( در
                             یک
                             مساله
                             کلاسه بندی دو کلاسه در فضای دوبعدی با n داده آموزشی داده شده است. نتیجه حاصل k=2 بردار
@@ -196,7 +205,8 @@
                         </div>
                     </div>
                     <div class="one_Q_field">
-                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در نظر گرفتن پنالتی( در
+                        <p class="exam_title">1 - یک ماشین بردار پشتیبان خطی سخت ) Hard Linear SVM یا SVM خطی بدون در
+                            نظر گرفتن پنالتی( در
                             یک
                             مساله
                             کلاسه بندی دو کلاسه در فضای دوبعدی با n داده آموزشی داده شده است. نتیجه حاصل k=2 بردار
@@ -755,6 +765,7 @@
     <script src="../../assets/js/general/bootstrap.js"></script>
     <script src="../../assets/js/script/navbar.js"></script>
     <script src="../../assets/js/script/modals.js"></script>
+    <script src="../../assets/js/script/uploader.js"></script>
     <script src="../../assets/js/course/course-detail.js"></script>
 
 </body>

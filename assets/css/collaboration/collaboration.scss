@@ -1,84 +1,35 @@
-@import '../partial/variable', '../partial/mixin', '../partial/modals';
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/modals';
+@import '../partial/uploader';
 
 .main_cwd {
-    width: $conteiner;
-    display: flex;
+    width: 500px;
     margin: 50px auto;
     text-align: right;
-    justify-content: center;
     direction: rtl;
 
     .collaboration {
-
         .content_field {
-            margin-top: 0 !important;
-            width: 500px;
-            margin: auto;
+            width: 100%;
             border-radius: 7px;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
             background-color: white;
             padding: 20px 0px;
-            margin-top: 20px;
 
             .CP_main_field {
                 width: 100%;
-                padding: 50px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                padding: 0px 50px;
+                padding: 0px 40px;
                 padding-bottom: 20px;
 
-                p {
+                .CP_title {
                     text-align: justify;
-                    margin-bottom: 25px;
-                    color: #4f4f4f;
-                    line-height: 28px;
                     font-size: 0.9rem;
+                    line-height: 26px;
                 }
 
                 form {
                     width: 100%;
-
-                    .form_group {
-
-                        .cfl {
-                            display: flex;
-                            align-items: center;
-
-                            div {
-                                width: 82%;
-                                display: flex;
-                                justify-content: space-between;
-
-                                span {
-                                    font-size: 0.8rem;
-                                    color: #666283;
-
-                                    &:first-child {
-                                        color: #ff0e0e;
-                                        margin-right: 10px;
-                                    }
-                                }
-                            }
-
-                        }
-
-                        .ch_f {
-                            width: 100%;
-                            border-radius: 5px;
-                            border: 1px solid #e6e6e6;
-                            background-color: #fff;
-                            height: 40px;
-                            padding: 3px 16px;
-                            color: #353535;
-                            direction: rtl;
-                            text-align: right;
-                        }
-
-
-                    }
 
                     .linear_lable_form {
                         width: 100%;
@@ -117,8 +68,6 @@
                         }
                     }
 
-
-
                     .submit_btn {
                         width: 100%;
                         padding: 10px 0px;
@@ -133,83 +82,22 @@
                 }
             }
 
-
         }
-    }
-}
-
-
-@media only screen and (max-width: 1200px) {
-    .main_cwd {
-        width: $conteiner_M;
-    }
-}
-
-@media only screen and (max-width: 900px) {
-
-    .main_cwd {
-        width: 90%;
     }
 }
 
 @media only screen and (max-width: 550px) {
 
     .main_cwd {
-        .collaboration {
-            .content_field {
-                .CP_main_field {
-                    form {
-                        .form_group {
-                            .cfl {
-                                align-items: flex-start;
-                                flex-direction: column;
-
-                                div {
-                                    width: 100%;
-
-                                    span {
-                                        &:first-child {
-
-                                            margin-right: 0px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .main_cwd {
-        .collaboration {
-            .content_field {
-                width: 100%;
-
-                .CP_main_field {
-                    p {
-                        font-size: .9rem;
-                    }
-                }
-            }
-        }
+        width: 90%;
     }
 
 }
 
-@media only screen and (max-width: 400px) {
-    .main_cwd {
-        .collaboration {
-            .content_field {
-                .CP_main_field {
-                    padding: 0px 20px;
-                }
-            }
-        }
+@media only screen and (max-width: 420px) {
+
+    .main_cwd .collaboration .content_field .CP_main_field {
+        padding: 0px 30px;
     }
 
 }
