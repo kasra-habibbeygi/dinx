@@ -712,6 +712,23 @@
 
             </div>
             <div class="left_field">
+                <div class="offers">
+                    <h3>پیشنهاد ها</h3>
+                    <ul>
+                        <li>
+                            <a href="">دوره آموزش مقدماتی طراحی وب سایت</a>
+                        </li>
+                        <li>
+                            <a href="">امنیت در php</a>
+                        </li>
+                        <li>
+                            <a href="">لموزش صفر تا صد سئو و بهینه سازی موتور های جستجو</a>
+                        </li>
+                        <li>
+                            <a href="">اموزش پروژه محور React.js</a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="pre_learn">
                     <h3>پیش نیاز های این دوره </h3>
                     <ul>
