@@ -41,9 +41,43 @@
                 margin: 0;
                 width: 100%;
 
+                .UD_submenu {
+                    padding: 0;
+                    list-style-type: none;
+                    max-height: 0;
+                    overflow: hidden;
+
+                    &.active {
+                        max-height: max-content;
+                    }
+
+                    li {
+                        a {
+                            padding-right: 30px;
+                            font-size: 0.85rem;
+                            color: #87868d;
+
+                            i {
+                                font-size: 0.6rem;
+                                position: relative;
+                            }
+                        }
+                    }
+                }
+
                 button {
                     background-color: transparent;
                     border: 0;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+
+                    .fa-angle-left {
+                        font-size: 1rem;
+                        position: absolute;
+                        left: 10px;
+                        top: 13px !important;
+                    }
                 }
 
                 a,

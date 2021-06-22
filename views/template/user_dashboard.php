@@ -13,16 +13,46 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <button type="button" class="UD_menu_btn">
                     <i class="fas fa-circle"></i>
                     سوابق خرید
-                </a>
+                    <i class="fal fa-angle-left"></i>
+                </button>
+                <ul class="UD_submenu">
+                    <li>
+                        <a href="course-records.php">
+                            <i class="fad fa-circle-notch"></i>
+                            سوابق خرید دوره ها
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Specialty-record.php">
+                            <i class="fad fa-circle-notch"></i>
+                            سوابق خرید تخصص ها
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li>
-                <a href="">
+                <button type="button" class="UD_menu_btn">
                     <i class="fas fa-circle"></i>
                     وضعیت دروس
-                </a>
+                    <i class="fal fa-angle-left"></i>
+                </button>
+                <ul class="UD_submenu">
+                    <li>
+                        <a href="course-status.php">
+                            <i class="fad fa-circle-notch"></i>
+                            وضعیت دوره ها
+                        </a>
+                    </li>
+                    <li>
+                        <a href="specialty-status.php">
+                            <i class="fad fa-circle-notch"></i>
+                           وضعیت تخصص ها
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li>
                 <a href="forum.php">
@@ -61,7 +91,7 @@
                 </a>
             </li>
             <li>
-                <button type="button" href="" id="Logout">
+                <button type="button" id="Logout">
                     <i class="fas fa-circle"></i>
                     خروج
                 </button>
