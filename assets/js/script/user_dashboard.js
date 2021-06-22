@@ -58,3 +58,18 @@ $(window).resize(function () {
     }
 
 });
+
+// open exit modal
+$('#Logout').click(function(){
+
+    $('.exit_modal').fadeIn();
+    $('body').css('overflow', 'hidden');
+
+    $('#dont_logout').click(function(){
+
+        $('.exit_modal').fadeOut();
+        $('body').css('overflow', 'auto');
+
+    })
+    
+});

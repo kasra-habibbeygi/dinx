@@ -61,12 +61,26 @@
                 </a>
             </li>
             <li>
-                <a href="">
+                <button type="button" href="" id="Logout">
                     <i class="fas fa-circle"></i>
                     خروج
-                </a>
+                </button>
             </li>
         </ul>
 
     </div>
 </aside>
+
+<div class="exit_modal">
+    <div class="exit_modal_field">
+        <div class="content">
+
+            <p>آیا برای خروج از پروفایل کاربری خود اطمینان دارید ؟</p>
+            <div>
+                <button type="button">بله</button>
+                <button type="button" id="dont_logout">خیر</button>
+            </div>
+
+        </div>
+    </div>
+</div>
