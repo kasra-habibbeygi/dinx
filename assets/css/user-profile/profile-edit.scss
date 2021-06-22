@@ -107,6 +107,11 @@
             font-size: 1rem;
             border-radius: 5px;
             border: 0;
+            @include transition(0.1s, linear, 0s);
+
+            &:hover {
+                background-color: $MC_hover;
+            }
         }
     }
 }

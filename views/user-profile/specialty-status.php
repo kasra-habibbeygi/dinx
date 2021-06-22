@@ -61,7 +61,7 @@
                                         اتمام دوره
                                     </div>
                                 </div>
-                                <div class="T_data">
+                                <div class="T_data link">
                                     <a href="">
                                         لینک تخصص
                                     </a>

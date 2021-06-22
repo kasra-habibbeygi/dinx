@@ -184,14 +184,23 @@ footer,
                     border: 0;
                     color: white;
                     font-size: 1.2rem;
+                    @include transition(0.1s , linear , 0s);
 
                     &:nth-child(2) {
-                        background-color: #ff005d;
+                        background-color: #ff0052;
+
+                        &:hover{
+                            background-color: red;
+                        }
                     }
 
                     &:nth-child(1) {
                         background-color: $main_color;
                         margin-left: 20px;
+
+                        &:hover{
+                            background-color: $MC_hover;
+                        }
                     }
                 }
             }

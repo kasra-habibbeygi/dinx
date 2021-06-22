@@ -22,6 +22,12 @@
             border-radius: 5px;
             display: flex;
             align-items: center;
+            @include transition(0.1s , linear , 0s);
+            
+            &:hover{
+                background-color: $main_color;
+                color: white;
+            }
 
             .fa-user {
                 margin-left: 9px;

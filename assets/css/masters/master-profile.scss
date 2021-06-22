@@ -53,6 +53,11 @@
                     .icon {
                         margin-right: 10px;
                         color: #4c4c6c61;
+                        @include transition(0.1s, linear, 0s);
+
+                        &:hover {
+                            color: #8A8A8A;
+                        }
                     }
 
                     .fa-phone-alt {
@@ -130,6 +135,14 @@
                 margin-bottom: 2%;
                 margin-left: 2%;
                 text-decoration: none;
+                position: relative;
+                top: 0;
+                @include transition(0.1s, linear, 0s);
+
+                &:hover {
+                    top: -7px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                }
 
                 &:nth-child(3) {
                     margin-left: 0;
@@ -324,7 +337,7 @@
                     font-size: 1.1rem;
                 }
 
-                .socail {
+                .ail {
                     font-size: 1.2rem;
 
                     a {

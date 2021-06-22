@@ -114,6 +114,11 @@
                     padding: 5px 0px;
                     font-size: 1.2rem;
                     margin: 20px 0px;
+                    @include transition(0.1s , linear , 0s);
+
+                    &:hover{
+                        background-color: rgb(65, 65, 65);
+                    }
                 }
 
                 .register_link {

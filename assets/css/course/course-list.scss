@@ -87,6 +87,14 @@
             margin-left: 2%;
             text-decoration: none;
             position: relative;
+            position: relative;
+            top: 0;
+            @include transition(0.1s, linear, 0s);
+
+            &:hover {
+                top: -7px;
+                box-shadow: rgba(50, 50, 93, 0.158) 0px 13px 27px -5px, rgba(0, 0, 0, 0.158) 0px 8px 16px -8px;
+            }
 
             .offer_field {
                 background-color: #1dcdfe;
@@ -256,6 +264,11 @@
             margin-top: 20px;
             margin-right: 8%;
             font-size: 0.9rem;
+            @include transition(0.1s , linear , 0s);
+
+            &:hover{
+                background-color: $MC_hover;
+            }
         }
 
         .filter_header {

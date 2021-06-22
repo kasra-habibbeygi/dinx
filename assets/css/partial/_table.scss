@@ -44,13 +44,19 @@
             text-align: center;
             padding: 15px 10px;
 
-            &.link{
-                a{
+            &.link {
+                a {
                     color: $main_color;
+                    display: block;
+                    @include transition(0.1s , linear , 0s);
+
+                    &:hover{
+                        @include transform(scale(1.1));
+                    }
                 }
             }
 
-            span{
+            span {
                 display: none;
             }
 
@@ -68,6 +74,7 @@
                 height: 32px;
                 width: 130px;
                 display: block;
+                @include transition(0.1s, linear, 0s);
             }
 
             .green_situation {
@@ -83,9 +90,14 @@
             }
 
             .blue_situation {
-                background-color: $pill_blue_light;
+                background-color: #e9f9fc;
                 color: $pill_blue_bold;
                 border: 1px solid $pill_blue_bold;
+                
+                &:hover{
+                    background-color: $main_color;
+                    color: white;
+                }
             }
         }
     }
@@ -103,15 +115,15 @@
         &::-webkit-scrollbar {
             height: 5px;
         }
-        
+
         &::-webkit-scrollbar-track {
             background: #ebebeb;
         }
-        
+
         &::-webkit-scrollbar-thumb {
             background: rgb(197, 197, 197);
         }
-        
+
         &::-webkit-scrollbar-thumb:hover {
             background: rgb(85, 94, 129);
         }

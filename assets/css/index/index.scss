@@ -99,6 +99,11 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    @include transition(0.1s , linear , 0s);
+
+                    &:hover{
+                        background-color: $MC_hover;
+                    }
 
                     i {
                         font-size: 1.2rem;
@@ -139,6 +144,11 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @include transition(0.1s , linear , 0s);
+
+        &:hover{
+            @include transform(scale(1.06));
+        }
 
         i {
             margin-right: 10px;
@@ -286,6 +296,11 @@
                     padding: 5px 0px;
                     font-size: 0.9rem;
                     margin-top: 15px;
+                    @include transition(0.1s , linear , 0s);
+                    &:hover{
+                        background-color: $main_color;
+                        color: white;
+                    }
                 }
 
                 h3 {
@@ -419,13 +434,21 @@
             .course_card {
                 border-radius: 10px;
                 overflow: hidden;
-                box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
                 height: 411px;
                 background-color: #fff;
                 width: 32%;
                 margin-bottom: 2%;
                 margin-left: 2%;
                 text-decoration: none;
+                position: relative;
+                top: 0;
+                @include transition(0.1s , linear , 0s);
+
+                &:hover{
+                    top: -7px;
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+                }
 
                 &:nth-child(3) {
                     margin-left: 0;
@@ -607,6 +630,13 @@
             height: 360px;
             cursor: pointer;
             width: 100%;
+            position: relative;
+            top: 0;
+            @include transition(0.1s , linear , 0s);
+
+            &:hover{
+                top: -7px;
+            }
 
             .img_field {
                 width: 100%;
