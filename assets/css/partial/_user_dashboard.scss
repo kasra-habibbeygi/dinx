@@ -13,6 +13,8 @@
         background-color: white;
         box-shadow: 0px -7px 10px -3px rgba(0, 0, 0, 0.164);
         z-index: 20;
+        overflow-y: auto;
+        padding-bottom: 30px;
 
         .user_avatar {
             margin: 20px auto;
@@ -184,12 +186,12 @@ footer,
                     border: 0;
                     color: white;
                     font-size: 1.2rem;
-                    @include transition(0.1s , linear , 0s);
+                    @include transition(0.1s, linear, 0s);
 
                     &:nth-child(2) {
                         background-color: #ff0052;
 
-                        &:hover{
+                        &:hover {
                             background-color: red;
                         }
                     }
@@ -198,7 +200,7 @@ footer,
                         background-color: $main_color;
                         margin-left: 20px;
 
-                        &:hover{
+                        &:hover {
                             background-color: $MC_hover;
                         }
                     }
