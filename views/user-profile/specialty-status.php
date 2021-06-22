@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../assets/css/general/bootstrap.css">
     <link rel="stylesheet" href="../../assets/css/general/fontAwsome.css">
     <link rel="stylesheet" href="../../assets/css/general/general-css.css">
-    <link rel="stylesheet" href="../../assets/css/user-profile/certificate.css">
+    <link rel="stylesheet" href="../../assets/css/user-profile/specialty-status.css">
     <title>دینکس | بترین سایت آموزشی</title>
 </head>
 
@@ -24,7 +24,7 @@
 
                 <div class="content_field">
                     <header class="main_sec_header">
-                        <h3>لیست تیکت های پشتیبانی</h3>
+                        <h3>وضعیت تخصص های من</h3>
                     </header>
 
                     <div class="general_content ticket">
@@ -34,16 +34,16 @@
                                     ردیف
                                 </div>
                                 <div class="T_title text_limited">
-                                    نام دوره
+                                    نام تخصص
                                 </div>
                                 <div class="T_title">
-                                    نمره
+                                    میانگین نمرات
                                 </div>
                                 <div class="T_title">
-                                    تاریخ ثبت
+                                    وضعیت
                                 </div>
                                 <div class="T_title">
-                                    لینک گواهی
+                                    لینک تخصص
                                 </div>
                             </div>
                             <div class="T_body">
@@ -54,13 +54,17 @@
                                     خرید ناموفق دوره در دوروز وتکمیل اطلاعات کاربری
                                 </div>
                                 <div class="T_data">
-                                    ۵۴ از ۱۰۰
+                                    ۱۸.۶۴
                                 </div>
                                 <div class="T_data">
-                                    ۱۴۰۰.۱۰.۳۰
+                                    <div class="green_situation pill">
+                                        اتمام دوره
+                                    </div>
                                 </div>
-                                <div class="T_data link">
-                                    <a href="">لینک گواهی</a>
+                                <div class="T_data">
+                                    <a href="">
+                                        لینک تخصص
+                                    </a>
                                 </div>
                             </div>
                         </div>

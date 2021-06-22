@@ -2,3 +2,17 @@
 @import '../partial/mixin';
 @import '../partial/user_dashboard';
 @import '../partial/table';
+
+.T_data{
+    a{
+        color: $main_color;
+    }
+}
+
+.table_body .T_header .T_title:nth-child(1) {
+    min-width: 70px;
+}
+
+.table_body .T_body .T_data:nth-child(1) {
+    min-width: 70px;
+}
