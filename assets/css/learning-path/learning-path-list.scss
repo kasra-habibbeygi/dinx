@@ -76,166 +76,76 @@
         display: flex;
         flex-wrap: wrap;
 
-        .course_card {
+        .VS_field {
             border-radius: 10px;
+            background-color: white;
             overflow: hidden;
-            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-            height: 366px;
-            background-color: #fff;
+            box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+            height: 340px;
+            cursor: pointer;
+            position: relative;
+            top: 0;
             width: 32%;
             margin-bottom: 2%;
             margin-left: 2%;
-            text-decoration: none;
-            position: relative;
-            position: relative;
-            top: 0;
             @include transition(0.1s, linear, 0s);
-
-            &:hover {
-                top: -7px;
-                box-shadow: rgba(50, 50, 93, 0.158) 0px 13px 27px -5px, rgba(0, 0, 0, 0.158) 0px 8px 16px -8px;
-            }
-
-            .offer_field {
-                background-color: #1dcdfe;
-                border-radius: 5px;
-                padding: 4px 20px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                position: absolute;
-                top: 10px;
-                right: 10px;
-                color: white;
-                font-size: 0.8rem;
-            }
 
             &:nth-child(3n) {
                 margin-left: 0;
             }
 
-            .card_img {
-                width: 100%;
-                height: 150px;
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
+            &:hover {
+                top: -7px;
             }
 
-            .card_content {
-                padding: 15px;
-                position: relative;
-                height: 152px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-
-                .card_bg {
-                    position: absolute;
-                    left: -10px;
-                    top: 10px;
-                }
-
-                .card_title {
-                    font-size: 0.9rem;
-                    font-weight: bold;
-                    margin-bottom: 20px;
-                    line-height: 30px;
-                    position: relative;
-                    z-index: 1;
-                }
-
-                .card_detail {
-                    display: flex;
-                    align-items: center;
-                    color: #b0b0b0;
-                    font-size: 0.9rem;
-                    position: relative;
-                    z-index: 1;
-
-                    div {
-                        margin-left: 40px;
-
-                        &:last-child {
-                            margin-left: 0px;
-                        }
-                    }
-
-                    i {
-                        color: #DADADA;
-                        margin-left: 10px;
-                        font-size: 1rem;
-                    }
-                }
-            }
-
-            .card_footer {
+            .img_field {
                 width: 100%;
-                background-color: #F9F9F9;
+                height: 200px;
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
-                padding: 10px 15px;
-                height: 65px;
+                justify-content: center;
+                background-position: center;
+                background-size: cover;
 
-                .sale_price {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
+                img {
+                    width: 70px;
+                    height: unset;
+                }
+            }
 
-                    p {
+            .VS_info {
+                text-align: right;
+                direction: rtl;
+                padding: 20px;
 
-                        &:first-child {
-                            font-size: 0.8rem;
-                            position: relative;
-                            color: #a8a8a8;
-                            padding: 0px 5px;
+                h3 {
+                    font-size: 1rem;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    line-height: 27px;
+                    color: rgb(65, 65, 65);
+                }
+            }
 
-                            &::after {
-                                content: '';
-                                width: 100%;
-                                position: absolute;
-                                left: 0;
-                                height: 1px;
-                                background-color: #c9c9c9;
-                            }
+            .VS_detail {
+                display: flex;
+                align-items: center;
+                color: #b0b0b0;
+                font-size: 1rem;
 
-                            span {
-                                font-size: 0.7rem;
-                            }
-                        }
+                div {
+                    margin-left: 20px;
+                    font-size: 0.9rem;
 
-                        &:last-child {
-                            font-size: 1rem;
-                        }
+                    &:last-child{
+                        margin: 0;
                     }
                 }
 
                 i {
+                    color: #dadada;
                     margin-left: 10px;
-                    font-size: 1.2rem;
-                }
-
-                P {
-                    margin: 0;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-size: 1.1rem;
-
-                    span {
-                        font-size: 1.1rem;
-                        margin-right: 7px;
-                    }
-
-                    &:first-child {
-                        color: $main_color;
-                    }
-
-                    &:last-child {
-                        color: $green_price;
-                    }
+                    font-size: 1rem;
                 }
             }
         }
@@ -260,9 +170,9 @@
             margin-top: 20px;
             margin-right: 8%;
             font-size: 0.9rem;
-            @include transition(0.1s , linear , 0s);
+            @include transition(0.1s, linear, 0s);
 
-            &:hover{
+            &:hover {
                 background-color: $MC_hover;
             }
         }
@@ -301,13 +211,19 @@
         width: $conteiner_M;
     }
 
-    .course_main_field .left_field .course_card {
-        width: 48%;
-        margin: 1% !important;
-    }
-
     .course_header {
         width: $conteiner_M;
+    }
+
+    .course_main_field .left_field .VS_field {
+        width: 49%;
+    }
+
+    .course_main_field .left_field .VS_field:nth-child(2n) {
+        margin-left: 0;
+    }
+    .course_main_field .left_field .VS_field:nth-child(3n) {
+        margin-left: 2%;
     }
 
 }
@@ -328,10 +244,6 @@
 
     .course_header form {
         width: 300px;
-    }
-
-    .course_main_field .left_field .course_card .card_content .card_detail {
-        font-size: 0.8rem;
     }
 
     .course_header form .MObile_fielter {
@@ -386,11 +298,6 @@
 
 @media only screen and (max-width: 640px) {
 
-    .course_main_field .left_field .course_card {
-        width: 100%;
-        margin-bottom: 25px !important;
-    }
-
     .course_header h1 {
         text-align: center;
         width: 100%;
@@ -406,6 +313,12 @@
     .course_header form {
         width: 100%;
         margin-top: 30px;
+    }
+
+    .course_main_field .left_field .VS_field {
+        width: 100%;
+        margin-left: 0 !important;
+        margin-bottom: 7%;
     }
 
 }

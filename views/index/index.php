@@ -366,7 +366,7 @@
                 <div class="swiper-container video_slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="VS_field">
+                            <a href="" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS00.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
@@ -377,10 +377,10 @@
                                         <div><i class="fas fa-eye"></i>۱۰۲۳</div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <div class="VS_field">
+                            <a href="" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS01.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
@@ -391,10 +391,10 @@
                                         <div><i class="fas fa-eye"></i>۱۰۲۳</div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <div class="VS_field">
+                            <a href="" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS02.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
@@ -405,10 +405,10 @@
                                         <div><i class="fas fa-eye"></i>۱۰۲۳</div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <div class="VS_field">
+                            <a href="" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS03.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
@@ -419,7 +419,7 @@
                                         <div><i class="fas fa-eye"></i>۱۰۲۳</div>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="swiper-button-next VS_next fal fa-angle-right next_angle"></div>
