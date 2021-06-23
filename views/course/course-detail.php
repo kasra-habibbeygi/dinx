@@ -16,6 +16,34 @@
 
     <?php require_once '../template/navbar.php'?>
 
+    <div class="question_master_modal">
+        <div class="QM_content">
+            <header class="main_sec_header">
+                <h3>ارسال تکلیف</h3>
+            </header>
+
+            <button class="close_QM">
+                <i class="far fa-times"></i>
+            </button>
+
+            <div class="form_field">
+                <form action="">
+                    <div class="form_group">
+                        <label for="">عنوان سوال</label>
+                        <input type="text">
+                    </div>
+                    <div class="form_group">
+                        <label for="">متن سوال</label>
+                        <textarea type="text"></textarea>
+                    </div>
+                    <div class="btn_group">
+                        <button type="submit">ارسال</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <div class="upload_modal">
         <div class="upload_content">
 
@@ -738,6 +766,8 @@
                         <li>Jquery</li>
                     </ul>
                 </div>
+                <a href="" class="forum">پرسش سوال در رابطه با این دوره</a>
+                <button class="master_question">پرس از استاد</button>
                 <div class="course_info">
                     <div class="course_price sale_on">
                         <div>

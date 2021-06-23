@@ -126,10 +126,10 @@
 
                     <ul class="menu_item little_MI">
                         <li>
-                            <a href=""><i class="fas fa-circle"></i> کاربردی</a>
+                            <a href="../spiciality/speciality-list.php"><i class="fas fa-circle"></i> کاربردی</a>
                         </li>
                         <li>
-                            <a href=""><i class="fas fa-circle"></i> تخصصی</a>
+                            <a href="../spiciality/speciality-list.php"><i class="fas fa-circle"></i> تخصصی</a>
                         </li>
                     </ul>
 

@@ -55,3 +55,18 @@ $('.exam').click(function(){
     })
 
 });
+
+// master modal
+$('.master_question').click(function(){
+
+    $('.question_master_modal').fadeIn();
+    $('body').css('overflow' , 'hidden');
+
+    $('.close_QM').click(function(){
+
+        $('.question_master_modal').fadeOut();
+        $('body').css('overflow' , 'auto');
+
+    })
+
+});

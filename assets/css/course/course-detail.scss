@@ -466,6 +466,34 @@
             }
         }
 
+        .master_question {
+            width: 100%;
+            text-align: center;
+            border-radius: 5px;
+            display: block;
+            width: 100%;
+            text-align: center;
+            border-radius: 5px;
+            display: block;
+            background-color: #0486ff;
+            color: #ffffff;
+            padding: 10px;
+            font-size: 0.9rem;
+            border: 0;
+        }
+
+        .forum {
+            width: 100%;
+            text-align: center;
+            border-radius: 5px;
+            display: block;
+            background-color: #EB1460;
+            color: white;
+            padding: 10px;
+            font-size: 0.9rem;
+            margin: 20px 0px;
+        }
+
         .pre_learn {
             width: 100%;
             padding: 15px;
@@ -556,9 +584,9 @@
                     border-radius: 5px;
                     border: 0px;
                     padding: 10px 0px;
-                    @include transition(0.1s , linear , 0s);
+                    @include transition(0.1s, linear, 0s);
 
-                    &:hover{
+                    &:hover {
                         background-color: $MC_hover;
                     }
                 }
@@ -630,9 +658,9 @@
                         color: #fff;
                         padding: 10px 30px;
                         border-radius: 4px;
-                        @include transition(0.1s , linear , 0s);
+                        @include transition(0.1s, linear, 0s);
 
-                        &:hover{
+                        &:hover {
                             background-color: $MC_hover;
                         }
                     }
@@ -675,6 +703,63 @@
             }
         }
     }
+}
+
+.question_master_modal {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 50px 0px;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    z-index: 200;
+    display: none;
+
+    .close_QM {
+        border: 0;
+        background-color: transparent;
+        position: absolute;
+        top: 25px;
+        left: 33px;
+        font-size: 1.5rem;
+        color: #555;
+    }
+
+    .QM_content {
+        width: 500px;
+        padding: 25px 0px;
+        background-color: white;
+        margin: auto;
+        border-radius: 7px;
+        position: relative;
+    }
+
+    .form_field {
+        width: 100%;
+        padding: 0px 40px;
+        direction: rtl;
+        text-align: right;
+
+        .btn_group {
+            width: 100%;
+
+            button {
+                border: 0;
+                background: $main_color;
+                color: #fff;
+                padding: 10px 30px;
+                border-radius: 4px;
+                width: 100%;
+                @include transition(0.1s, linear, 0s);
+
+                &:hover {
+                    background-color: $MC_hover;
+                }
+            }
+        }
+    }
+
 }
 
 .active_angle {
@@ -807,6 +892,8 @@
         width: 90%;
     }
 
+
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -818,6 +905,10 @@
 
     .exsm_modal .exam_content .exam_info form .option {
         width: 100%;
+    }
+
+    .question_master_modal .QM_content {
+        width: 90%;
     }
 
 }
@@ -852,6 +943,10 @@
     }
 
     .upload_modal .upload_content .upload_field {
+        padding: 0px 20px;
+    }
+
+    .question_master_modal .form_field {
         padding: 0px 20px;
     }
 
