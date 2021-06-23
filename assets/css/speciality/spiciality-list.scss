@@ -1,0 +1,423 @@
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/modals';
+
+.course_header {
+    width: $conteiner;
+    border-radius: 5px;
+    padding: 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    text-align: right;
+    margin: auto;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+    h1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin: 0;
+        color: #494949;
+    }
+
+    form {
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .MObile_fielter {
+            color: $main_color;
+            font-size: 1.5rem;
+            margin-left: 10px;
+            border: 0;
+            background: transparent;
+            display: none;
+        }
+
+        .form_group {
+            margin: 0;
+            width: 100%;
+
+            button {
+                background: white;
+                border: 0;
+                position: absolute;
+                left: 1px;
+                top: 1px;
+                height: 38px;
+                border-radius: 5px;
+                width: 38px;
+                color: #cccccc;
+                font-size: 1.2rem;
+            }
+        }
+
+    }
+}
+
+.course_main_field {
+    width: $conteiner;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    direction: rtl;
+    text-align: right;
+
+    .left_field {
+        width: 100%;
+        border-radius: 10px;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .course_card {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            height: 366px;
+            background-color: #fff;
+            width: 32%;
+            margin-bottom: 2%;
+            margin-left: 2%;
+            text-decoration: none;
+            position: relative;
+            position: relative;
+            top: 0;
+            @include transition(0.1s, linear, 0s);
+
+            &:hover {
+                top: -7px;
+                box-shadow: rgba(50, 50, 93, 0.158) 0px 13px 27px -5px, rgba(0, 0, 0, 0.158) 0px 8px 16px -8px;
+            }
+
+            .offer_field {
+                background-color: #1dcdfe;
+                border-radius: 5px;
+                padding: 4px 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                color: white;
+                font-size: 0.8rem;
+            }
+
+            &:nth-child(3) {
+                margin-left: 0;
+            }
+
+            &:nth-child(6) {
+                margin-left: 0;
+            }
+
+            .card_img {
+                width: 100%;
+                height: 150px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .card_content {
+                padding: 15px;
+                position: relative;
+                height: 152px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                .card_bg {
+                    position: absolute;
+                    left: -10px;
+                    top: 10px;
+                }
+
+                .card_title {
+                    font-size: 0.9rem;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                    line-height: 30px;
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .card_detail {
+                    display: flex;
+                    align-items: center;
+                    color: #b0b0b0;
+                    font-size: 0.9rem;
+                    position: relative;
+                    z-index: 1;
+
+                    div {
+                        margin-left: 40px;
+
+                        &:last-child {
+                            margin-left: 0px;
+                        }
+                    }
+
+                    i {
+                        color: #DADADA;
+                        margin-left: 10px;
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            .card_footer {
+                width: 100%;
+                background-color: #F9F9F9;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 15px;
+                height: 65px;
+
+                .sale_price {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    p {
+
+                        &:first-child {
+                            font-size: 0.8rem;
+                            position: relative;
+                            color: #a8a8a8;
+                            padding: 0px 5px;
+
+                            &::after {
+                                content: '';
+                                width: 100%;
+                                position: absolute;
+                                left: 0;
+                                height: 1px;
+                                background-color: #c9c9c9;
+                            }
+
+                            span {
+                                font-size: 0.7rem;
+                            }
+                        }
+
+                        &:last-child {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+                i {
+                    margin-left: 10px;
+                    font-size: 1.2rem;
+                }
+
+                P {
+                    margin: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 1.1rem;
+
+                    span {
+                        font-size: 1.1rem;
+                        margin-right: 7px;
+                    }
+
+                    &:first-child {
+                        color: $main_color;
+                    }
+
+                    &:last-child {
+                        color: $green_price;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .right_field {
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 0px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+        button {
+            width: 84%;
+            border: 0;
+            background-color: $main_color;
+            color: #fff;
+            text-align: center;
+            border-radius: 50px;
+            padding: 6px 0px;
+            margin-top: 20px;
+            margin-right: 8%;
+            font-size: 0.9rem;
+            @include transition(0.1s , linear , 0s);
+
+            &:hover{
+                background-color: $MC_hover;
+            }
+        }
+
+        .filter_header {
+            margin: 5px 0px;
+            font-size: 1rem;
+            font-weight: normal;
+        }
+
+        .filter_iteam {
+            padding: 0px 25px;
+
+            div {
+                margin-bottom: 10px;
+
+                label {
+                    span {
+                        font-size: 0.85rem;
+                        color: rgb(49, 49, 49);
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.close_modal {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .course_main_field {
+        width: $conteiner_M;
+    }
+
+    .course_main_field .left_field .course_card {
+        width: 48%;
+        margin: 1% !important;
+    }
+
+    .course_header {
+        width: $conteiner_M;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .course_header {
+        width: 90%;
+    }
+
+    .course_main_field {
+        width: 90%;
+    }
+
+    .course_header h1 {
+        font-size: 1.1rem;
+    }
+
+    .course_header form {
+        width: 300px;
+    }
+
+    .course_main_field .left_field .course_card .card_content .card_detail {
+        font-size: 0.8rem;
+    }
+
+    .course_header form .MObile_fielter {
+        display: block;
+    }
+
+    .course_main_field .right_field {
+        width: 100%;
+        background-color: #00000080;
+        border-radius: 10px;
+        padding: 60px 0px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        z-index: 120;
+        left: 0;
+        overflow: auto;
+        border-radius: 0;
+        direction: ltr;
+        display: none;
+    }
+
+    .Mobile_field {
+        width: 400px;
+        margin: auto;
+        background: white;
+        border-radius: 10px;
+        padding: 30px 0px;
+        position: relative;
+        direction: rtl;
+
+        .close_modal {
+            display: block;
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            background-color: transparent !important;
+            border-radius: 0 !important;
+            font-size: 1.3rem !important;
+            color: rgb(116, 116, 116) !important;
+            width: 30px !important;
+            margin: 0 !important;
+            z-index: 1;
+        }
+    }
+
+    .course_main_field .left_field {
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .course_main_field .left_field .course_card {
+        width: 100%;
+        margin-bottom: 25px !important;
+    }
+
+    .course_header h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .course_header {
+        width: 90%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .course_header form {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .Mobile_field {
+        width: 85%;
+    }
+
+}
