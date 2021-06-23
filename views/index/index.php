@@ -71,7 +71,7 @@
                                         <p>۲۵۰.۰۰۰ <span>تومان</span></p>
                                         <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                                     </div>
-                                    <a href="">مشاهده محصول</a>
+                                    <a href="../course/course-detail.php">مشاهده محصول</a>
                                 </div>
                                 <div class="right_field">
                                     <div class="CO_img" style="background-image: url(../../assets/img/CI05.jpg);"></div>
@@ -118,12 +118,12 @@
                         </div>
                     </div>
                     <div>
-                        <a href="">سایر دوره ها <i class="far fa-angle-left"></i></a>
+                        <a href="../course/course-list.php">سایر دوره ها <i class="far fa-angle-left"></i></a>
                     </div>
                 </header>
 
                 <div class="card_parent">
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">اموزش امنیت در php</p>
@@ -138,7 +138,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI01.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -153,7 +153,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI02.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -168,7 +168,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI07.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -183,7 +183,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI04.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -198,7 +198,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI05.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -232,12 +232,12 @@
                         </div>
                     </div>
                     <div>
-                        <a href="">سایر دوره ها <i class="far fa-angle-left"></i></a>
+                        <a href="../course/course-list.php">سایر دوره ها <i class="far fa-angle-left"></i></a>
                     </div>
                 </header>
 
                 <div class="card_parent">
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI00.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -252,7 +252,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI01.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -267,7 +267,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI02.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -282,7 +282,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI07.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -297,7 +297,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI04.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -312,7 +312,7 @@
                             <p>۱۰۰.۰۰۰ <span>تومان</span></p>
                         </div>
                     </a>
-                    <a href="#" class="course_card">
+                    <a href="../course/course-detail.php" class="course_card">
                         <div class="card_img" style="background-image: url(../../assets/img/CI05.jpg);"></div>
                         <div class="card_content">
                             <p class="card_title">PHP آموزش هک و امنیت</p>
@@ -339,7 +339,7 @@
                 <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها
                     و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایطر</p>
                 <div>
-                    <a href="">شروع همکاری</a>
+                    <a href="../collaboration/collaboration.php">شروع همکاری</a>
                 </div>
             </div>
         </section>
@@ -359,14 +359,14 @@
                         </div>
                     </div>
                     <div>
-                        <a href="">سایر دوره ها <i class="far fa-angle-left"></i></a>
+                        <a href="../learning-path/learning-path-list.php">سایر دوره ها <i class="far fa-angle-left"></i></a>
                     </div>
                 </header>
 
                 <div class="swiper-container video_slider">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="" class="VS_field">
+                            <a href="../learning-path/learning-path-details.php" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS00.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
@@ -380,7 +380,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="" class="VS_field">
+                            <a href="../learning-path/learning-path-details.php" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS01.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
@@ -394,7 +394,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="" class="VS_field">
+                            <a href="../learning-path/learning-path-details.php" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS02.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>
@@ -408,7 +408,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="" class="VS_field">
+                            <a href="../learning-path/learning-path-details.php" class="VS_field">
                                 <div class="img_field" style="background-image: url(../../assets/img/VS03.PNG);">
                                     <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                                 </div>

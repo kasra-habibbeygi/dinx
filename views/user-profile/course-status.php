@@ -62,7 +62,7 @@
                                     </div>
                                 </div>
                                 <div class="T_data link">
-                                    <a href="">
+                                    <a href="../course/course-detail.php">
                                         لینک دوره
                                     </a>
                                 </div>

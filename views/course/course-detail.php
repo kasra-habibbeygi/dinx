@@ -713,7 +713,7 @@
             </div>
             <div class="left_field">
                 <div class="offers">
-                    <h3>پیشنهاد ها</h3>
+                    <h3>دوره های پشنهادی</h3>
                     <ul>
                         <li>
                             <a href="">دوره آموزش مقدماتی طراحی وب سایت</a>

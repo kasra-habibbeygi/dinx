@@ -142,7 +142,7 @@
                                     </div>
                                 </div>
                                 <div class="T_data">
-                                    <a href="" class="blue_situation pill">
+                                    <a href="ticket-details.php" class="blue_situation pill">
                                         مشاهده جزئیات
                                     </a>
                                 </div>
@@ -166,7 +166,7 @@
                                     </div>
                                 </div>
                                 <div class="T_data">
-                                    <a href="" class="blue_situation pill">
+                                    <a href="ticket-details.php" class="blue_situation pill">
                                         مشاهده جزئیات
                                     </a>
                                 </div>
@@ -190,7 +190,7 @@
                                     </div>
                                 </div>
                                 <div class="T_data">
-                                    <a href="" class="blue_situation pill">
+                                    <a href="ticket-details.php" class="blue_situation pill">
                                         مشاهده جزئیات
                                     </a>
                                 </div>

@@ -62,7 +62,7 @@
                                     </div>
                                 </div>
                                 <div class="T_data link">
-                                    <a href="">
+                                    <a href="../spiciality/speciality-details.php">
                                         لینک تخصص
                                     </a>
                                 </div>

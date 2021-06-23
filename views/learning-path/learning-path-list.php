@@ -129,7 +129,7 @@
                 </div>
             </div>
             <div class="left_field">
-                <a href="" class="VS_field">
+                <a href="learning-path-details.php" class="VS_field">
                     <div class="img_field" style="background-image: url(../../assets/img/VS00.PNG);">
                         <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                     </div>
@@ -141,7 +141,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="VS_field">
+                <a href="learning-path-details.php" class="VS_field">
                     <div class="img_field" style="background-image: url(../../assets/img/VS00.PNG);">
                         <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                     </div>
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="VS_field">
+                <a href="learning-path-details.php" class="VS_field">
                     <div class="img_field" style="background-image: url(../../assets/img/VS00.PNG);">
                         <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                     </div>
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="" class="VS_field">
+                <a href="learning-path-details.php" class="VS_field">
                     <div class="img_field" style="background-image: url(../../assets/img/VS00.PNG);">
                         <img src="../../assets/img/VL00.svg" alt="video_logo" title="video_logo">
                     </div>
