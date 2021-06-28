@@ -1,0 +1,311 @@
+@import '../partial/variable';
+@import '../partial/mixin';
+@import '../partial/modals';
+
+.course_detail_main_field {
+    width: $conteiner;
+    display: flex;
+    text-align: right;
+    direction: rtl;
+    margin: 50px auto;
+
+    .right_field {
+        border-radius: 10px;
+        width: 100%;
+        padding: 40px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 40px;
+            line-height: 40px;
+        }
+
+        .about_course {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 50px 0px 30px 0px;
+        }
+
+        .main_title {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin: 50px 0px 30px 0px;
+        }
+
+        .forum_header_field {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #f0f0f0;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+
+            p {
+                padding: 5px 20px;
+                border-radius: 54px;
+                margin: 0;
+                font-size: .9rem;
+                box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+                color: #99989b;
+                display: flex;
+                align-items: center;
+            }
+
+            form {
+                width: 260px;
+
+                .form_group {
+                    margin: 0;
+
+                    button {
+                        background-color: #fff;
+                        position: absolute;
+                        left: 1px;
+                        top: 1px;
+                        border: 0;
+                        height: 38px;
+                        width: 33px;
+                        border-radius: 5px;
+                        color: #bfbfc7;
+                    }
+
+                    input {
+                        &::placeholder {
+                            font-size: 0.8rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .question_card {
+            width: 100%;
+
+            .QC_field {
+                box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+                border-radius: 5px;
+                display: flex;
+                padding: 10px;
+                direction: rtl;
+                text-align: right;
+                align-items: center;
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                .QC_img {
+                    margin-left: 20px;
+                    min-width: 80px;
+                    height: 80px;
+                    border-radius: 50px;
+                    background-position: center;
+                    background-size: cover;
+                }
+
+                .QC_info {
+                    .QC_title {
+                        font-weight: bold;
+                    }
+
+                    div {
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        p {
+                            border-left: 3px dotted $main_color;
+                            margin: 0;
+                            margin-left: 10px;
+                            color: #acacb8;
+                            font-size: .9rem;
+                            padding-left: 10px;
+                            line-height: 30px;
+
+                            &:last-child {
+                                border: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .left_field {
+        width: 400px;
+        margin-right: 20px;
+
+        .forum {
+            width: 100%;
+            text-align: center;
+            border-radius: 5px;
+            display: block;
+            background-color: #EB1460;
+            color: white;
+            padding: 10px;
+            font-size: 0.9rem;
+            margin: 20px 0px;
+            position: relative;
+            overflow: hidden;
+
+            &:after {
+                content: "";
+                width: 241px;
+                height: 360px;
+                background-color: #ffffff3b;
+                position: absolute;
+                top: -170px;
+                right: -320px;
+                @include transition(1s, cubic-bezier(0, 0, 0.52, 1.31), 0s);
+                @include transform(rotate(45deg));
+            }
+
+            &:hover {
+                &:after {
+                    right: 0;
+                }
+            }
+        }
+
+
+        .offers {
+            width: 100%;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+            h3 {
+                color: rgb(90, 90, 90);
+                font-size: 1rem;
+            }
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin-top: 20px;
+
+                li {
+                    a {
+                        width: 100%;
+                        display: block;
+                        margin-bottom: 15px;
+                        line-height: 26px;
+                        color: #666666;
+                        font-size: .85rem;
+                        padding-right: 25px;
+                        position: relative;
+                        display: flex;
+                        align-content: center;
+                        @include transition(0.1s, linear, 0s);
+
+                        &:hover {
+                            color: rgb(39, 39, 39);
+
+                            &::after {
+                                background-color: $main_color;
+                            }
+                        }
+
+                        &:after {
+                            @include transition(0.1s, linear, 0s);
+                            content: "";
+                            height: 8px;
+                            width: 8px;
+                            position: absolute;
+                            right: 7px;
+                            border: 1px solid $main_color;
+                            border-radius: 50px;
+                            top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .course_detail_main_field {
+        width: $conteiner_M;
+    }
+
+    .course_detail_main_field .right_field h1 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 880px) {
+
+    .course_detail_main_field {
+        width: 90%;
+    }
+
+    .course_detail_main_field .right_field {
+        order: 2;
+        padding: 20px;
+    }
+
+    .course_detail_main_field {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .course_detail_main_field .left_field {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        order: 1;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .course_detail_main_field .right_field .forum_header_field {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .course_detail_main_field .right_field .forum_header_field form {
+        width: 100%;
+    }
+
+    .course_detail_main_field .right_field .forum_header_field p {
+        padding: 11px 20px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .course_detail_main_field .right_field .question_card .QC_field .QC_info div {
+        flex-direction: column;
+    }
+
+    .course_detail_main_field .right_field .question_card .QC_field .QC_info div p {
+        border-left: none;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+
+    .course_detail_main_field .right_field .question_card .QC_field .QC_img {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+
+    .course_detail_main_field .right_field h1 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+}

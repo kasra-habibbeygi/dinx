@@ -480,6 +480,26 @@
             padding: 10px;
             font-size: 0.9rem;
             border: 0;
+            position: relative;
+            overflow: hidden;
+
+            &:after {
+                content: "";
+                width: 241px;
+                height: 360px;
+                background-color: #ffffff3b;
+                position: absolute;
+                top: -170px;
+                right: -320px;
+                @include transition(1s , cubic-bezier(0, 0, 0.52, 1.31) , 0s);
+                @include transform(rotate(45deg));
+            }
+
+            &:hover {
+                &:after {
+                    right: 0;
+                }    
+            }
         }
 
         .forum {
@@ -492,6 +512,26 @@
             padding: 10px;
             font-size: 0.9rem;
             margin: 20px 0px;
+            position: relative;
+            overflow: hidden;
+
+            &:after {
+                content: "";
+                width: 241px;
+                height: 360px;
+                background-color: #ffffff3b;
+                position: absolute;
+                top: -170px;
+                right: -320px;
+                @include transition(1s , cubic-bezier(0, 0, 0.52, 1.31) , 0s);
+                @include transform(rotate(45deg));
+            }
+
+            &:hover {
+                &:after {
+                    right: 0;
+                }    
+            }
         }
 
         .pre_learn {
